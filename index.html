@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+<title>快闪地图</title>
+<style>
+html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Apple SD Gothic Neo",sans-serif;background:#fff}
+#map{width:100%;height:100%}  /* Naver 会把容器改成 position:relative, 只靠 inset 高度会变 0 */
+#head{position:absolute;top:10px;left:10px;right:10px;z-index:10;background:#fff;border-radius:12px;padding:10px 14px;box-shadow:0 2px 8px rgba(0,0,0,.18);font-size:15px}
+#head b{font-size:16px}
+.pin{width:30px;height:30px;border-radius:50%;background:#ff5a1f;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
+.pin.maybe{background:#8e8e93}
+.pin.start{background:#03c75a;width:auto;padding:0 8px;border-radius:15px;font-size:12px}
+#card{position:absolute;left:10px;right:10px;bottom:16px;z-index:10;background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 2px 12px rgba(0,0,0,.25);display:none;max-height:55%;overflow:auto;font-size:15px;line-height:1.5}
+#card h3{margin:0 0 6px;font-size:17px}
+#card .row{margin:4px 0}
+#card .orig{color:#666;font-size:13px;margin-top:8px}
+#card .btns{display:flex;gap:8px;margin-top:12px}
+#card .btns a{flex:1;text-align:center;padding:10px 0;border-radius:10px;text-decoration:none;font-weight:600}
+.go{background:#03c75a;color:#fff}.see{background:#f2f2f7;color:#111}
+#x{position:absolute;right:12px;top:8px;font-size:22px;color:#999;text-decoration:none}
+#err{padding:20px;font-size:15px;display:none}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div id="head">加载中…</div>
+<div id="card"><a id="x" href="#" onclick="hide();return false">×</a><div id="body"></div></div>
+<div id="err"></div>
+<script>
+// 数据文件: ?d=<名字> → d/<名字>.json (由 popup-monitor 生成)
+var KEY = "kf4vf7nyey";
+var Q = new URLSearchParams(location.search), DATA = null, map = null;
+function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
+function hide(){document.getElementById("card").style.display="none"}
+function show(i){
+  var s = DATA.stores[i], h = "<h3>" + (i+1) + ". " + esc(s.name) + "</h3>";
+  [["🏷", s.kind], ["🎁", s.gift], ["👉", s.how], ["📅", s.when], ["📍", s.addr]].forEach(function(r){ if(r[1]) h += '<div class="row">' + r[0] + " " + esc(r[1]) + "</div>" });
+  if (s.orig) h += '<div class="orig">原文：' + esc(s.orig) + "</div>";
+  h += '<div class="btns"><a class="go" href="' + esc(s.nav) + '">🚶 导航去这家</a><a class="see" href="' + esc(s.page) + '">看详情</a></div>';
+  document.getElementById("body").innerHTML = h;
+  document.getElementById("card").style.display = "block";
+  map.panTo(new naver.maps.LatLng(s.lat, s.lng));
+}
+function draw(){
+  var b = new naver.maps.LatLngBounds();
+  map = new naver.maps.Map("map", {zoom: 15, scaleControl: false, mapDataControl: false, logoControlOptions: {position: naver.maps.Position.BOTTOM_LEFT}});
+  if (DATA.start) {
+    var p0 = new naver.maps.LatLng(DATA.start.lat, DATA.start.lng); b.extend(p0);
+    new naver.maps.Marker({position: p0, map: map, icon: {content: '<div class="pin start">🚇 ' + esc(DATA.start.name) + "</div>", anchor: new naver.maps.Point(30, 15)}});
+  }
+  DATA.stores.forEach(function(s, i){
+    var p = new naver.maps.LatLng(s.lat, s.lng); b.extend(p);
+    var m = new naver.maps.Marker({position: p, map: map, zIndex: 100 - i,
+      icon: {content: '<div class="pin' + (s.sure ? "" : " maybe") + '">' + (i+1) + "</div>", anchor: new naver.maps.Point(15, 15)}});
+    naver.maps.Event.addListener(m, "click", function(){ show(i) });
+  });
+  map.fitBounds(b, {top: 80, right: 30, bottom: 30, left: 30});
+  naver.maps.Event.addListener(map, "click", hide);
+}
+function fail(t){var e=document.getElementById("err");e.style.display="block";e.textContent=t;document.getElementById("head").style.display="none"}
+window.navermap_authFailure = function(){ fail("Naver 地图认证失败：Client ID 不对，或这个网址没在 NCP 控制台登记。") };
+fetch("d/" + encodeURIComponent(Q.get("d") || "sample") + ".json").then(function(r){ if(!r.ok) throw 0; return r.json() }).then(function(d){
+  DATA = d;
+  document.getElementById("head").innerHTML = "<b>" + esc(d.title) + "</b><br>" + esc(d.sub || "") ;
+  var sc = document.createElement("script");
+  sc.src = "https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=" + KEY;
+  sc.onload = draw; sc.onerror = function(){ fail("Naver 地图脚本加载失败") };
+  document.head.appendChild(sc);
+}).catch(function(){ fail("找不到这次的数据（可能已过期）") });
+</script>
+</body>
+</html>
