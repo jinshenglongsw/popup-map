@@ -42,9 +42,14 @@ button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:poin
 #grip .cnt{font-size:15px;font-weight:700;display:flex;justify-content:space-between;align-items:center}
 #grip .cnt small{font-weight:500;color:var(--sub);font-size:12px}
 #list{flex:1;overflow-y:auto;padding:0 16px 80px;-webkit-overflow-scrolling:touch}
-.it{display:flex;gap:12px;padding:12px 0;border-bottom:1px solid var(--line);align-items:flex-start}
+.it{padding:12px 0;border-bottom:1px solid var(--line)}
+.it .row{display:flex;gap:12px;align-items:flex-start}
+.strip{display:none;gap:4px;margin-bottom:10px}.strip i{flex:1;height:150px;border-radius:10px;background:#eee center/cover no-repeat}.strip i:first-child{flex:2}
+#sheet.full .strip{display:flex}#sheet.full .it .im{display:none}
+.it .th{font-size:12px;color:var(--sub);margin-top:1px}
+.it .of{font-size:13px;color:var(--brand);font-weight:600;margin:0 0 5px;line-height:1.4}
 .it.on{background:linear-gradient(90deg,var(--brand2),#fff)}
-.it .im{flex:0 0 68px;height:68px;border-radius:10px;background:#eee center/cover no-repeat;position:relative}
+.it .im{flex:0 0 88px;height:88px;border-radius:10px;background:#eee center/cover no-repeat;position:relative}
 .it .im b{position:absolute;left:-4px;top:-4px;min-width:20px;height:20px;border-radius:10px;background:var(--brand);color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center;border:2px solid #fff}
 .it .tx{flex:1;min-width:0}
 .it .nm{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -96,6 +101,16 @@ details p{margin:6px 0;line-height:1.5}
 #dbtn a,#dbtn button{flex:1;text-align:center;padding:14px 0;border-radius:12px;text-decoration:none;font-weight:700;font-size:15px}
 .b1{background:var(--bg);color:var(--ink)}.b1.on{background:var(--brand2);color:var(--brand)}
 .b2{background:var(--green);color:#fff}
+.cap{font-size:11px;color:var(--mute);margin-bottom:6px}
+.sum{font-size:15px;line-height:1.6;margin:10px 0}
+#det h4{margin:16px 0 6px;font-size:15px}
+.ul{margin:0;padding-left:18px;font-size:14px;line-height:1.6;color:#333d4b}
+.act .k2{display:inline-block;font-size:11px;font-weight:700;padding:2px 6px;border-radius:5px;margin-right:6px;background:#e8f3ff;color:#1b64da}
+.act .k.paid{color:var(--sub)}
+.vis{background:#f9fafb;border-left:3px solid #d1d6db;padding:8px 10px;margin:6px 0;font-size:14px;line-height:1.55}
+.vis b{display:block;font-size:12px;color:var(--sub);font-weight:600}.vis a{color:var(--brand);font-size:12px;white-space:nowrap}
+.unk{font-size:12px;color:#b26a00;background:#fff8e1;border-radius:8px;padding:8px 10px;margin-top:10px}
+.more summary{font-size:14px;color:var(--sub);padding:6px 0;cursor:pointer}
 #toast{position:fixed;left:50%;top:40%;transform:translateX(-50%);background:rgba(25,31,40,.9);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:50;display:none}
 #err{position:absolute;top:120px;left:16px;right:16px;z-index:5;font-size:14px;color:var(--sub);display:none}
 </style>
@@ -158,14 +173,17 @@ function chips(){
 }
 
 function item(s, n){
-  var k = picked.indexOf(s.id), tg = s.tags.map(function(t){ return EMO[t] }).join("");
+  var k = picked.indexOf(s.id), tg = s.tags.map(function(t){ return EMO[t] }).join(""), x = s.x || {};
   var c = s.conds.slice(0, 3).map(function(x){ return '<span class="c">' + esc(x) + "</span>" }).join("");
   var w = warn(s).map(function(x){ return '<span class="w">' + esc(x) + "</span>" }).join("");
-  return '<div class="it' + (cur === s.id ? " on" : "") + '" data-id="' + s.id + '"><div class="im"' + bg(s.imgs[0]) + ">" + (n ? "<b>" + n + "</b>" : "") + "</div>" +
-    '<div class="tx"><div class="nm">' + tg + " " + esc(s.name) + '</div><div class="l1">' + esc(s.line1) + "</div>" +
+  // 清单拉满时每家多一条照片带 (小红书式); 半展开只有缩略图, 方便快速比较 (GPT 第三轮)
+  var strip = '<div class="strip">' + s.imgs.slice(0, 3).map(function(u){ return "<i" + bg(u) + "></i>" }).join("") + "</div>";
+  return '<div class="it' + (cur === s.id ? " on" : "") + '" data-id="' + s.id + '">' + strip + '<div class="row"><div class="im"' + bg(s.imgs[0]) + ">" + (n ? "<b>" + n + "</b>" : "") + "</div>" +
+    '<div class="tx"><div class="nm">' + tg + " " + esc(s.name) + "</div>" + (x.theme ? '<div class="th">' + esc(x.theme) + "</div>" : "") +
+    '<div class="l1">' + esc(s.line1) + "</div>" + (x.card_offer ? '<div class="of">🎁 ' + esc(x.card_offer) + "</div>" : "") +
     '<div class="tags"><span>' + (s.hours ? "今天 " + esc(s.hours) : "时间未写") + "</span>" + c + w + "</div></div>" +
     (mode === "route" ? '<div class="mv"><button data-mv="-1">↑</button><button data-mv="1">↓</button></div>' : "") +
-    '<button class="add' + (k >= 0 ? " on" : "") + '" data-add="1">' + (k < 0 ? "＋" : mode === "route" ? "✕" : (k + 1)) + "</button></div>";
+    '<button class="add' + (k >= 0 ? " on" : "") + '" data-add="1">' + (k < 0 ? "＋" : mode === "route" ? "✕" : (k + 1)) + "</button></div></div>";
 }
 
 function render(){
@@ -278,23 +296,46 @@ function naverRoute(){
 
 // ---------- 详情 ----------
 function openDet(id){
-  var s = byId(id), k = picked.indexOf(id), h = "";
-  h += "<h2>" + esc(s.name) + '</h2><div class="what">' + s.tags.map(function(t){ return EMO[t] }).join(" ") + " " + esc(s.what) + "</div>";
-  s.acts.forEach(function(a){
-    var paid = /买|付费|折扣/.test(a.cond);
-    h += '<div class="act' + (paid ? " paid" : "") + '"><div class="g"><span class="k">' + esc(a.cond) + "</span>" + esc(a.get && a.get.indexOf("未写") < 0 ? a.get : "礼物（原文没写是什么）") + "</div>" +
-         '<div class="d">怎么拿：' + esc(a.do) + (a.limit ? "<br>名额：" + esc(a.limit) + "（余量未知）" : "") + "</div></div>";
-  });
-  if (s.hl) h += '<div class="hl">✨ ' + esc(s.hl) + "</div>";
-  if (!s.acts.length && !s.hl) h += '<div class="hl">原文没写具体活动，去之前看下「popply 原页」</div>';
+  var s = byId(id), k = picked.indexOf(id), x = s.x, h = "";
+  h += "<h2>" + esc(s.name) + '</h2><div class="what">' + s.tags.map(function(t){ return EMO[t] }).join(" ") + " " + esc(x && x.theme || s.what) + "</div>";
+  if (s.imgs.length) h += '<div class="gal">' + s.imgs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">' }).join("") + '</div><div class="cap">📷 popply 上的官方图（不一定是现场实拍）</div>';
+  if (x) {
+    if (x.summary) h += '<p class="sum">' + esc(x.summary) + "</p>";
+    if (x.scene && x.scene.length) h += '<h4>👀 现场有什么</h4><ul class="ul">' + x.scene.map(function(a){ return "<li>" + esc(a.text) + "</li>" }).join("") + "</ul>";
+    if (x.offers && x.offers.length) {
+      h += "<h4>🎁 怎么拿</h4>";
+      var free = x.offers.filter(function(o){ return !o.purchase_required }), paid = x.offers.filter(function(o){ return o.purchase_required });
+      if (!free.length) h += '<div class="unk">没有不用买就能拿的，下面都要先买东西</div>';
+      // 要买的(折扣/买满送)常有六七条, 折叠起来, 不把不用买的挤下去
+      var one = function(o){
+        var b = '<span class="k' + (o.purchase_required ? " paid" : "") + '">' + (o.purchase_required ? "要买" + (o.min_spend ? " " + esc(o.min_spend) : "") : "不用买") + "</span>" +
+                (o.chance && o.chance !== "未说明" ? '<span class="k2">' + esc(o.chance) + "</span>" : "");
+        h += '<div class="act' + (o.purchase_required ? " paid" : "") + '"><div class="g">' + esc(o.reward) + '</div><div class="d">' + b + esc(o.action) +
+             (o.quota ? "<br>名额：" + esc(o.quota) + "（余量未知）" : "") + (o.valid_dates ? "<br>时间：" + esc(o.valid_dates) : "") + "</div></div>";
+      };
+      free.forEach(one);
+      if (paid.length && free.length) { h += '<details class="more"><summary>要买东西的优惠 ' + paid.length + " 项</summary>"; paid.forEach(one); h += "</details>" }
+      else paid.forEach(one);
+    }
+    if (x.visits && x.visits.length) h += "<h4>💬 去过的人说</h4>" + x.visits.map(function(v){
+      return '<div class="vis"><b>' + esc(v.who_when) + "</b>" + esc(v.text) + (v.url ? ' <a href="' + esc(v.url) + '">看原帖和现场图 ›</a>' : "") + "</div>" }).join("");
+    if (x.tips && x.tips.length) h += '<h4>💡 小贴士</h4><ul class="ul">' + x.tips.map(function(a){ return "<li>" + esc(a.text) + "</li>" }).join("") + "</ul>";
+    if (x.unknowns && x.unknowns.length) h += '<div class="unk">还不清楚：' + x.unknowns.map(esc).join("；") + "</div>";
+  } else {
+    s.acts.forEach(function(a){
+      h += '<div class="act"><div class="g">' + esc(a.get && a.get.indexOf("未写") < 0 ? a.get : a.do) + '</div><div class="d"><span class="k">' + esc(a.cond) + "</span>" + esc(a.do) + "</div></div>";
+    });
+    if (s.hl) h += '<div class="hl">✨ ' + esc(s.hl) + "</div>";
+  }
   h += '<div class="kv">' +
        "<div><span>今天</span>" + (s.hours ? esc(s.hours) : "营业时间待确认") + "</div>" +
        "<div><span>预约</span>" + esc(s.reserve || "未提及") + "</div>" +
        (s.only ? "<div><span>限定</span>" + esc(s.only) + "</div>" : "") +
        "<div><span>日期</span>" + esc(short(s.when)) + "</div>" +
        '<div><span>地址</span><div>' + esc(s.addr) + '<u data-copy="' + esc(s.addr) + '">复制</u></div></div></div>';
-  if (s.imgs.length) h += '<div class="gal">' + s.imgs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">' }).join("") + "</div>";
-  h += "<details><summary>韩文原文</summary>" + (s.ev ? "<p>" + esc(s.ev) + "</p>" : "") + '<p><a href="' + esc(s.page) + '">popply 原页 ›</a></p></details>';
+  var src = '<p><a href="' + esc(s.page) + '">popply 官方页 ›</a></p>';
+  if (x && x.blogs) src += x.blogs.map(function(b){ return '<p>' + esc(b.id) + " · " + esc(short(b.date)) + ' <a href="' + esc(b.url) + '">' + esc(b.title) + "</a></p>" }).join("");
+  h += "<details><summary>来源（中文由 AI 按这些整理）</summary>" + src + "</details>";
   $("dbody").innerHTML = h; $("dbody").scrollTop = 0;
   $("dbtn").innerHTML = '<button class="b1' + (k >= 0 ? " on" : "") + '" id="dadd">' + (k >= 0 ? "✓ 已在路线（第 " + (k + 1) + " 家）" : "＋ 加入路线") + '</button><a class="b2" href="' + esc(s.nav) + '">🚶 导航去这家</a>';
   $("dadd").onclick = function(){ toggle(id) };

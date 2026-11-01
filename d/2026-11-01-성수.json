@@ -21,11 +21,10 @@
     "gift"
    ],
    "what": "Kleesier 26FW Cocoa Bunny系列快闪，时装与美妆新品",
-   "line1": "关注Instagram → 可可",
+   "line1": "在圣水洞克丽希尔(Kleesier)快闪店可以购买26FW系列、全新唇部产品及限定色，并体验产品发色。",
    "conds": [
-    "买了才送",
-    "小任务就送",
-    "折扣"
+    "不用买",
+    "买了才送"
    ],
    "hours": "11:00~20:00",
    "acts": [
@@ -66,6 +65,197 @@
    "when": "2026-10-22 ~ 2026-11-01",
    "addr": "서울 성동구 연무장길 99",
    "ev": "11.01 · 25 Daily tank top & 25 Daily boy shorts ... 매일 선착순 구매 고객 10분께 구매 금액과 관계없이 기프트 증정",
+   "x": {
+    "theme": "克丽希尔可可小兔快闪店",
+    "card_offer": "关注Instagram账号即可获赠可可饮料，全场商品最高享50%折扣。",
+    "summary": "这是克丽希尔(Kleesier)举办的Cocoa Bunny 26FW与美妆新品快闪店，适合喜欢限定色和时尚美妆的消费者在最后一天前往参观。",
+    "scene": [
+     {
+      "text": "现场设有服装试穿区域，可体验26FW系列时尚新品。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "美妆区提供全新 Hydra Treatment Jam 唇部产品的试色与质感确认。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "全场商品购买",
+      "reward": "最高享50%折扣",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "action": "购买26FW系列",
+      "reward": "最高享25%折扣",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "action": "购买唇部新色全色系",
+      "reward": "赠送棉花糖粉扑化妆包(Baby Pink)",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "action": "消费满15万韩元",
+      "reward": "赠送 Kleesier 标志性透明水瓶",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "action": "消费满25万韩元",
+      "reward": "赠送 Cocoa Bunny 柔软毛毯",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "action": "消费满35万韩元",
+      "reward": "赠送 Soft club 标志性纯棉包",
+      "purchase_required": true,
+      "chance": "先到先得",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "action": "每日现场前10名购买顾客",
+      "reward": "赠送当日限定特别礼品",
+      "purchase_required": true,
+      "chance": "先到先得",
+      "src": [
+       "P"
+      ],
+      "valid_dates": "2026-11-01"
+     },
+     {
+      "action": "认证Kakao Talk Plus好友",
+      "reward": "额外优惠2,000韩元",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "action": "认证Instagram关注",
+      "reward": "赠送可可饮料",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "action": "任意购买顾客",
+      "reward": "赠送 Cocoa Bunny 贴纸",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/30发帖的博主",
+      "text": "11月1日是最后一天，限量色和热门单品可能缺货，建议上午前往以避免拥挤。",
+      "src": "B1",
+      "url": "https://blog.naver.com/rlkid/224458607393",
+      "date": "2026-10-30"
+     },
+     {
+      "who_when": "10/29发帖的博主",
+      "text": "现场试穿每人限3件，人多时试穿时间可能从8分钟缩短至5分钟，场地无专属停车场需用附近公营停车场。",
+      "src": "B2",
+      "url": "https://blog.naver.com/super_coolgirl/224457497496",
+      "date": "2026-10-29"
+     }
+    ],
+    "tips": [
+     {
+      "text": "快闪店最后一天(2026-11-01)运营时间为11:00至18:00。",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "text": "由于是活动最后一天且为周末，建议出发前通过品牌官方渠道确认最新库存与营业信息。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "现场具体排队等待时长"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "클리시어 성수 팝업 11월 1일까지｜코코아버니 한정 쉐이드와 현장 ....",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/rlkid/224458607393",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "클리시어 팝업 성수 일정과 50% 할인 혜택 정리",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/super_coolgirl/224457497496",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "10월 성수 팝업 클리시어 26FW COCOA BUNNY 총정리! (할인, 단독선발매, 사....",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/hi_nrae/224449249813",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "⋆⑅˚꒷꒦☕️ 클리시어 kleesier 성수 POP-UP Review | 클리시어 26F/w • ....",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/soniao/224460103942",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "클리시어 성수 팝업 후기 7벌 직접 피팅 솔직후기 웨이팅 아이돌 사....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/imdongri/224455435008",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6350",
    "nav": "nmap://route/walk?dlat=37.5411288&dlng=127.0601856&dname=%ED%81%B4%EB%A6%AC%EC%8B%9C%EC%96%B4%20%ED%8C%9D%EC%97%85%20%3A%20Cocoa%20Bunn&appname=com.jaepax.popup"
   },
@@ -83,9 +273,9 @@
     "gift"
    ],
    "what": "Medicube x Joanne Friends成宗快闪，Booster Pro X2新品",
-   "line1": "完成3个盖章任务 → PDRN果冻喷雾60ml",
+   "line1": "体验限定版 Booster Pro X2 美容仪、参与答题游戏并测试多款护肤产品。",
    "conds": [
-    "小任务就送",
+    "不用买",
     "买了才送"
    ],
    "hours": "11:00~20:00",
@@ -127,6 +317,132 @@
    "when": "2026-06-08 ~ 2026-12-31",
    "addr": "서울 성동구 성수이로7길 40",
    "ev": "스탬프 미션 3가지를 성공하면 무려 PDRN 젤리미스트 60ml 증정",
+   "x": {
+    "theme": "Medicube X Jo&Friends 圣水快闪店",
+    "card_offer": "完成3个集章任务可免费获得 PDRN 胶冻喷雾 60ml 或微型爽肤水。",
+    "summary": "这是 Medicube 与 Jo&Friends 的联名快闪店，适合想免费体验 Booster Pro X2 美容仪及试用护肤品的人。",
+    "scene": [
+     {
+      "text": "在一楼体验限定版 Booster Pro X2 美容仪并听取讲解。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "根据听到的美容仪说明参加投球答题游戏。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "在二楼试用防晒霜、喷雾、乳液和洁面等护肤产品。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "完成3个集章任务（体验美容仪、答题、发布 Instagram Story）",
+      "reward": "PDRN 胶冻喷雾 60ml 或微型爽肤水",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "添加 Medicube KakaoTalk 渠道好友",
+      "reward": "粉色肽精华 10ml",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "action": "参与拍照评价活动",
+      "reward": "琥珀酸棉片 10片装",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "action": "前50名购买顾客或购买美容仪顾客",
+      "reward": "可参与弹珠游戏获取产品",
+      "purchase_required": true,
+      "chance": "先到先得",
+      "src": [
+       "P"
+      ],
+      "quota": "前50名"
+     },
+     {
+      "action": "消费满5万韩元以上",
+      "reward": "可拍摄人生四格照片并参与硬币活动",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P"
+      ],
+      "min_spend": "5万韩元"
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "06/17发帖的博主",
+      "text": "室外排队约45分钟，体验环节每次仅限2人进行。完成集章获得了PDRN胶冻喷雾60ml。",
+      "src": "B1",
+      "url": "https://blog.naver.com/lapislazuli1011/224318053946",
+      "date": "2026-06-17"
+     },
+     {
+      "who_when": "06/21发帖的博主",
+      "text": "工作日中午排队约20分钟，体验用时6至7分钟。因现场变动，完成集章领到的是微型爽肤水。",
+      "src": "B2",
+      "url": "https://blog.naver.com/cdy4487/224322185439",
+      "date": "2026-06-21"
+     }
+    ],
+    "tips": [
+     {
+      "text": "可在排队等待期间提前准备好 Instagram Story 发布内容，以缩短核验时间。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "集章活动赠品可能会根据现场实际情况发生变更。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수동 팝업스토어 추천 성수 메디큐브 X 조앤프렌즈 팝업 후기",
+      "date": "2026-06-17",
+      "url": "https://blog.naver.com/lapislazuli1011/224318053946",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "[팝업]성수 메디큐브X조앤프렌즈 팝업 후기｜부스터 프로 X2 체험, ....",
+      "date": "2026-06-21",
+      "url": "https://blog.naver.com/cdy4487/224322185439",
+      "read": true
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5172",
    "nav": "nmap://route/walk?dlat=37.5426396&dlng=127.0534952&dname=%EB%A9%94%EB%94%94%ED%81%90%EB%B8%8CX%EC%A1%B0%EC%95%A4%ED%94%84%EB%A0%8C%EC%A6%88%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -147,9 +463,9 @@
     "gift"
    ],
    "what": "PICK'S PIZZA成宗快闪，1800韩元起的冷冻披萨",
-   "line1": "关注+发Story认证 → 礼物(没写是什么)",
+   "line1": "现场设有一二楼及后方用餐区，可以用大烤箱现场烘烤并品尝9种不同口味的单手披萨。",
    "conds": [
-    "小任务就送",
+    "不用买",
     "抽奖",
     "买了才送"
    ],
@@ -180,6 +496,129 @@
    "when": "2026-10-22 ~ 2026-11-22",
    "addr": "서울 성동구 연무장길 5-9",
    "ev": "10,000원 구매마다 럭키드로우 1회! ... 키캡키링부터 포토카드 인화권, 피자 구매권, 올리브영 인기 화장품",
+   "x": {
+    "theme": "PICK'S PIZZA圣水单手披萨快闪店",
+    "card_offer": "关注官方社交账号并发布 Story 动态认证，即可免费领取披萨试吃券。",
+    "summary": "这是 PICK'S PIZZA 在圣水洞举办的快闪店，主打单手即食的高性价比披萨，适合路过想快速解决一顿简餐或尝鲜的人。",
+    "scene": [
+     {
+      "text": "现场使用大烤箱烘烤，下单后约3分钟即可出炉拿到披萨。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "text": "店内1楼、2楼以及建筑物后方均设有供顾客用餐的休息空间。",
+      "src": [
+       "P",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "关注官方账号 @pickspizza_official 并发布带有指定标签的 Story 动态",
+      "reward": "免费披萨试吃券（包含披萨及 Tingle 柠檬苹果醋苏打饮料）",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "在社交平台发布图文 Feed 动态认证",
+      "reward": "抽奖获取价值10万韩元的美妆产品",
+      "purchase_required": false,
+      "chance": "抽奖",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "购买披萨单笔消费满10,000韩元",
+      "reward": "参与100%中奖抽奖，可获键帽钥匙扣、照片打印券、披萨券或 Olive Young 化妆品",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "min_spend": "10000韩元"
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/31发帖的博主",
+      "text": "博主通过发布动态拿到了免费试吃券，在用餐区品尝了两种口味的披萨和搭配的苏打饮料。",
+      "src": "B2",
+      "url": "https://blog.naver.com/trendmong/224460103428",
+      "date": "2026-10-31"
+     }
+    ],
+    "tips": [
+     {
+      "text": "快闪店无需提前预约，完全采用现场排队模式入场，每周一为固定休息日。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "11月1日前营业时间为11:00-18:00，11月3日起调整为12:00-19:00，下午有休息时间。",
+      "src": [
+       "P",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "现场排队等待的具体时长"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수 핫플 추천 1,800원 가성비 한 손 피자 픽스피자 팝업스토어 위치....",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/hi_nrae/224448691931",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 픽스피자 팝업스토어 후기｜팔로우 + 스토리 인증 무료 시식권....",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/trendmong/224460103428",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 픽스피자 팝업스토어 일정 가격 무료 시식 럭키드로우 이벤트 ....",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/kimmy_1314/224448688494",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "픽스피자 성수 팝업, 운영시간과 구매·인증 이벤트 정리",
+      "date": "2026-10-22",
+      "url": "https://blog.naver.com/niji_natsu/224449361007",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "요즘 성수에서 뭐 먹지? 10~11월 음식 팝업 추천! 피자·햄버거·신라....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/sujeong2-/224458038749",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6276",
    "nav": "nmap://route/walk?dlat=37.5442564&dlng=127.0503748&dname=%ED%94%BD%EC%8A%A4%ED%94%BC%EC%9E%90%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -200,10 +639,9 @@
     "gift"
    ],
    "what": "食品周韩国K-FOOD FESTA成水站快闪活动",
-   "line1": "在拍照区拍照，带必填标签公开发帖并现场认证 → 礼物(没写是什么)",
+   "line1": "位于圣水站内，设有韩国食品周拍照打卡区与百分百中奖的大型轮盘体验活动。",
    "conds": [
-    "小任务就送",
-    "抽奖"
+    "不用买"
    ],
    "hours": "10:00~18:00",
    "acts": [
@@ -226,6 +664,124 @@
    "when": "2026-10-28 ~ 2026-11-01",
    "addr": "서울 성동구 아차산로 105",
    "ev": "포토존 사진을 필수 해시태그와 함께 전체공개로 올리고 현장 인증하면 경품 증정! (매일 선착순 100명)",
+   "x": {
+    "theme": "K-FOOD FESTA 圣水快闪店",
+    "card_offer": "无需消费，拍照认证或转轮盘免费赢取Olive Young卡及展会门票。",
+    "summary": "该快闪店是2026韩国食品周的预热活动，位于圣水站内，提供免费拍照打卡与轮盘抽奖，适合在圣水游玩时顺路打卡。",
+    "scene": [
+     {
+      "text": "位于圣水站内的韩国食品周主题拍照打卡区。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "现场设有百分百中奖的大型轮盘抽奖互动区。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "在拍照区拍照并带指定哈希标签公开上传至SNS后进行现场认证",
+      "reward": "FOOD WEEK KOREA 门票1张或韩国传统流苏钥匙扣(전통 노리개 키링)",
+      "purchase_required": false,
+      "chance": "先到先得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "quota": "每日限前100名",
+      "valid_dates": "2026-10-28 ~ 2026-11-01"
+     },
+     {
+      "action": "在现场工作人员指引下旋转大型轮盘",
+      "reward": "Olive Young 3万韩元卡、Starbucks 1万韩元券、传统酒大节(우리술 대축제)30%折扣券、FOOD WEEK KOREA门票或药果羊羹小吃套组",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "quota": "每日限量发放，赠完即止",
+      "valid_dates": "2026-10-28 ~ 2026-11-01"
+     }
+    ],
+    "visits": [],
+    "tips": [
+     {
+      "text": "快闪店位于地铁2号线圣水站(圣水站)2楼4号出口方向的闪电商店(번개 스토어)。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "营业时间为每日10:00至18:00，各项活动奖品数量有限，赠完即止。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "每个活动每人每天限参与1次，无需消费即可参与。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     }
+    ],
+    "unknowns": [
+     "拍照区的具体场景设计与装置细节未说明",
+     "轮盘抽奖各奖项的具体中奖概率及盘面占比未说明"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "K-FOOD FESTA 성수 팝업 오픈! 푸드위크 코리아 입장권 이벤트 총정리",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/songsunlight27/224456563226",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 K-FOOD FESTA 팝업 총정리(10.28 ~ 11.01)",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/xien201/224455794178",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "[성수 팝업] K-FOOD FESTA 케이푸드 페스타 성수 팝업스토어 오픈! 기간....",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/o_onkr/224457080971",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "[성수 팝업스토어] K-FOOD FESTA 성수역 팝업 오픈! 꽝 없는 100% 당첨 대....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/newsdmai/224457906137",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "이번 주말 성수 팝업 5곳｜빵력장터부터 체험·선물까지 (10/31~11/1)",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/meljju/224457665248",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6463",
    "nav": "nmap://route/walk?dlat=37.5448506&dlng=127.0555746&dname=K-FOOD%20FESTA%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -246,9 +802,9 @@
     "gift"
    ],
    "what": "Snack与Google Gemini联名的大学校园主题体验",
-   "line1": "NFC入学、领电子学生证、做任务集学分 → 礼物(没写是什么)",
+   "line1": "体验经营学与航空航天工程等专业展位，使用Gemini AI功能做任务修学分。",
    "conds": [
-    "免费体验"
+    "不用买"
    ],
    "hours": "10:00~22:00",
    "acts": [
@@ -271,6 +827,116 @@
    "when": "2026-10-30 ~ 2026-11-01",
    "addr": "서울 성동구 연무장7길 16",
    "ev": "학점을 채워 졸업하면 졸업 선물까지 받아 갈 수 있어요",
+   "x": {
+    "theme": "Google Gemini《转科生》联名快闪",
+    "card_offer": "刷NFC领学生证修满学分可得毕业礼物，参与SNS认证送豆腐吉利饼干。",
+    "summary": "Google Gemini与网综《转科生》合作打造的虚拟校园快闪，适合想体验AI工具与校园生活氛围的人群免费游玩。",
+    "scene": [
+     {
+      "text": "打卡经营学与航空航天工程专业展位及社团、中央图书馆等空间。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "text": "体验Deep Research写报告及Canvas编辑文档等Gemini AI功能。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "刷NFC入场领移动学生证，完成专业与社团展位AI任务修满学分毕业",
+      "reward": "毕业礼物",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "action": "参与SNS认证活动",
+      "reward": "豆腐吉利饼干(두부 포춘 스낵)",
+      "purchase_required": false,
+      "chance": "未说明",
+      "src": [
+       "B4"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/30发帖的博主",
+      "text": "体验了刷NFC入场发移动学生证，逛专业展位与社团并用Gemini完成AI任务修学分。",
+      "src": "B1",
+      "url": "https://blog.naver.com/hanjulsikgaek/224459517851",
+      "date": "2026-10-30"
+     }
+    ],
+    "tips": [
+     {
+      "text": "普通参观可免费现场入场，但选择性修业课程与讲座(如11/1的Excel讲座)需提前预约。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "快闪仅运营至11月1日，位于圣水站4号出口步行3分钟、Olive Young N 圣水对面。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "毕业礼物的具体物品内容",
+     "限量周边的具体样式与价格",
+     "选择性修业课程的具体预约渠道与名额"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "[성수팝업] 스낵이 제미나이 캠퍼스 팝업｜성수에서 즐기는 AI 대학 ....",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/hanjulsikgaek/224459517851",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "[성수 팝업스토어] 전과자 X 구글 제미나이 '스낵이 제미나이 캠퍼스....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/newsdmai/224457777788",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 팝업 스낵이 제미나이 캠퍼스 - 3일 한정 오픈! 굿즈부터 체험....",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/jurineeee/224458963719",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수 제미나이 팝업 스낵이 캠퍼스 일정 위치 사전 예약 체험 정보",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/ferrarin_/224458694399",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "성수 스낵이 제미나이 캠퍼스 팝업 총정리(10.30 ~ 11.01)",
+      "date": "2026-10-25",
+      "url": "https://blog.naver.com/xien201/224452973520",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6453",
    "nav": "nmap://route/walk?dlat=37.5439598&dlng=127.0551062&dname=%EC%8A%A4%EB%82%B5%EC%9D%B4%20%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4%20%EC%BA%A0%ED%8D%BC%EC%8A%A4&appname=com.jaepax.popup"
   },
@@ -289,9 +955,9 @@
     "gift"
    ],
    "what": "马拉松传奇李凤柱×봉주호두核桃零食展览+快闪(成水)",
-   "line1": "现场试吃봉주호두 → 免费试吃",
+   "line1": "现场可观赏李凤柱马拉松波士顿金牌与藏品，体验骑单车榨果汁与核桃试吃。",
    "conds": [
-    "免费体验",
+    "不用买",
     "抽奖"
    ],
    "hours": "11:00~20:00",
@@ -315,6 +981,132 @@
    "when": "2026-10-30 ~ 2026-11-01",
    "addr": "서울 성동구 연무장길 37-21",
    "ev": "On-site Activities : Free Tasting, Lucky Draw, Mixing Bike Ride / 봉주호두 시식, 럭키드로우, 음료 믹싱 라이딩 등",
+   "x": {
+    "theme": "圣水奉州核桃与李凤柱快闪店",
+    "card_offer": "现场提供奉州核桃免费试吃，并可参与幸运抽奖活动。",
+    "summary": "这是核桃品牌与韩国马拉松传奇李凤柱合作的快闪，展示运动员珍贵藏品并提供核桃试吃，适合运动及美食爱好者。",
+    "scene": [
+     {
+      "text": "2楼展出李凤柱的波士顿马拉松冠军金牌、战袍及跑鞋等藏品。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "顶楼设有单车搅拌机，顾客可亲自踩脚踏车混合制作核桃饮料。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "text": "1楼于11月1日15:00至16:00举办李凤柱签名会。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "现场免费品尝奉州核桃",
+      "reward": "奉州核桃试吃",
+      "purchase_required": false,
+      "chance": "未说明",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "min_spend": "0",
+      "quota": "未说明",
+      "valid_dates": "2026-10-30 ~ 2026-11-01"
+     },
+     {
+      "action": "参与现场幸运抽奖活动",
+      "reward": "抽奖礼品",
+      "purchase_required": false,
+      "chance": "抽奖",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "min_spend": "0",
+      "quota": "未说明",
+      "valid_dates": "2026-10-30 ~ 2026-11-01"
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/30 发帖的博主",
+      "text": "建议先观赏2楼的藏品展，再到顶楼体验骑单车制作核桃饮料与试吃。",
+      "src": "B1",
+      "url": "https://blog.naver.com/hanjulsikgaek/224459556710",
+      "date": "2026-10-30"
+     }
+    ],
+    "tips": [
+     {
+      "text": "签名会于11月1日15:00在1楼举行，建议提前关注官方规则。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "圣水(성수)周边停车条件不一，建议优先乘坐公共交通前往。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "幸运抽奖(럭키드로우)的具体奖品与参与门槛",
+     "签名会(싸인회)的人数限制与现场排队领号规则"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "[성수팝업] ♂️ 성수로 달려온 봉주! 봉주호두 X 이봉주 팝업스토어",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/hanjulsikgaek/224459556710",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 봉주호두 팝업스토어 오픈! 이봉주 선수 사인회부터 호두 간식....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/niniworld_/224455912239",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 봉주호두 X 이봉주 성수로 달려온 봉주 팝업 총정리(10.30 ~ 11.01)",
+      "date": "2026-10-25",
+      "url": "https://blog.naver.com/xien201/224453289760",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "[성수 팝업] 레전드 이봉주 선수를 직접 만난다! 보스턴 우승 메달부....",
+      "date": "2026-10-23",
+      "url": "https://blog.naver.com/trace_on_/224451016892",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "11월 성수 팝업 총정리 8곳｜이번 주말 끝나는 곳부터 일정·예약 한....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/sia_mom2025/224455014715",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6389",
    "nav": "nmap://route/walk?dlat=37.5435085&dlng=127.0536806&dname=%EB%B4%89%EC%A3%BC%ED%98%B8%EB%91%90%20X%20%EC%9D%B4%EB%B4%89%EC%A3%BC%20%ED%8C%9D%EC%97%85%20%3A%20%EC%84%B1%EC%88%98%EB%A1%9C%20&appname=com.jaepax.popup"
   },
@@ -332,9 +1124,10 @@
     "gift"
    ],
    "what": "LONGTAKE香氛品牌在Olive Young圣水Beauty Mansion的快闪",
-   "line1": "参加关注活动(20时前) → 礼物(没写是什么)",
+   "line1": "现场以香氛空间为概念打造，可以试嗅品牌各款香气，并展示产品档案与系列产品。",
    "conds": [
-    "小任务就送"
+    "不用买",
+    "买了才送"
    ],
    "hours": "10:00~22:00",
    "acts": [
@@ -351,6 +1144,135 @@
    "when": "2026-10-01 ~ 2026-12-31",
    "addr": "서울 성동구 아차산로 103",
    "ev": "*팔로우 이벤트는 오후 8시까지 참여 가능합니다.",
+   "x": {
+    "theme": "Longtake香氛体验快闪",
+    "card_offer": "关注可免费领护发油3ml，任意消费可体验制作专属香包。",
+    "summary": "这是香水品牌Longtake在圣水Olive Young旗舰店举办的香氛快闪，适合想试嗅品牌香气和选购产品的人。",
+    "scene": [
+     {
+      "text": "现场打造了由各种香气构成的空间，可直接挑选并感受不同香气。",
+      "src": [
+       "P",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "关注官方社交账号",
+      "reward": "Rose Remains(로즈리메인즈) 护发油 3ml",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B2"
+      ],
+      "min_spend": "0韩元",
+      "quota": "未说明",
+      "valid_dates": "2026-10-01 ~ 2026-12-31（每天截至20:00）"
+     },
+     {
+      "action": "任意消费",
+      "reward": "体验制作专属香包(나만의 향 파우치 만들기)",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ],
+      "min_spend": "任意金额",
+      "quota": "未说明",
+      "valid_dates": "2026-10-01 ~ 2026-12-31"
+     },
+     {
+      "action": "消费满5万韩元",
+      "reward": "玫瑰欧根纱发圈(로즈 오간자 스크런치)",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2",
+       "B3"
+      ],
+      "min_spend": "5万韩元",
+      "quota": "未说明",
+      "valid_dates": "2026-10-01 ~ 2026-12-31"
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/03发帖的博主",
+      "text": "感觉比起快闪店更像展厅或产品档案馆，适合想体验香气的人，期待丰富活动可能会失望。",
+      "src": "B4",
+      "url": "https://blog.naver.com/mukbbovely/224430375269",
+      "date": "2026-10-03"
+     },
+     {
+      "who_when": "10/24发帖的博主",
+      "text": "从圣水站2号出口出来很容易找到，关注赠送活动晚8点就结束，建议提前确认赠品库存。",
+      "src": "B2",
+      "url": "https://blog.naver.com/jurineeee/224452379424",
+      "date": "2026-10-24"
+     }
+    ],
+    "tips": [
+     {
+      "text": "关注赠送活动每日仅持续至20:00，而快闪店营业至22:00。",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "text": "快闪店位于地铁2号线圣水站(圣水站)2号出口正前方，交通非常便利。",
+      "src": [
+       "P",
+       "B1",
+       "B2",
+       "B3"
+      ]
+     }
+    ],
+    "unknowns": [
+     "赠送品的具体每日限量或库存情况未明确说明",
+     "现场是否有现场排队系统或预约登记未做说明"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "이번 주 성수 팝업 5곳 정리, 리바이포유 10주년 오픈부터 클리시어 1....",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/hwahong-m/224453815251",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "롱테이크 성수 팝업 올리브영 뷰티 더 맨션 10/1~12/31 | 향 파우치·증....",
+      "date": "2026-10-24",
+      "url": "https://blog.naver.com/jurineeee/224452379424",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "[성수 팝업] 팔로우만 해도 헤어오일 증정/나만의 향 파우치 만들기 ....",
+      "date": "2026-10-23",
+      "url": "https://blog.naver.com/trace_on_/224451128534",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수 10월 뷰티맨션 팝업:: 릴리이브X트롤 행운장, 롱테이크 갈/말 솔....",
+      "date": "2026-10-03",
+      "url": "https://blog.naver.com/mukbbovely/224430375269",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "[성수 팝업] 올리브영 뷰티 맨션 성수 X 롱테이크 팝업스토어! 향 파....",
+      "date": "2026-10-01",
+      "url": "https://blog.naver.com/mha0715/224427931823",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6451",
    "nav": "nmap://route/walk?dlat=37.5450426&dlng=127.0558154&dname=%EB%A1%B1%ED%85%8C%EC%9D%B4%ED%81%AC%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -371,9 +1293,11 @@
     "gift"
    ],
    "what": "SIE x ESSAIS联名快闪，新品外套和鞋",
-   "line1": "加Kakao Plus好友并在照相亭拍照，照片出现Lucky Frame → 店内入库商品任选一件",
+   "line1": "在圣水洞探索SIE与ESSAIS的全新单品，现场试穿多款秋季外套并体验互动拍照。",
    "conds": [
-    "抽奖"
+    "不用买",
+    "抽奖",
+    "买了才送"
    ],
    "hours": "12:00~20:00",
    "acts": [
@@ -390,6 +1314,137 @@
    "when": "2026-10-27 ~ 2026-11-10",
    "addr": "서울 성동구 연무장길 35",
    "ev": "카카오톡 플러스친구 추가하고, 포토부스에서 ... 〈럭키 프레임〉이 나오는 고객님께 ... 원하시는 한 가지를 선물로",
+   "x": {
+    "theme": "SIE与ESSAIS联合快闪店",
+    "card_offer": "添加官方微信/Kakao好友并在拍照亭留下照片，抽中特定相框可获赠心仪商品。",
+    "summary": "这是服饰品牌SIE与ESSAIS在首尔圣水洞举办的联名快闪店，适合喜欢时尚穿搭和寻找秋冬新品的消费者。",
+    "scene": [
+     {
+      "text": "1层主要陈列各类外套单品，方便顾客快速试穿体验。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "2层设有ESSAIS品牌商品以及专属的试衣间空间。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "现场全场商品",
+      "reward": "全场商品10%折扣优惠",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "消费满20万韩元",
+      "reward": "赠送Tassel Cosmetic Pouch化妆包",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "消费满35万韩元",
+      "reward": "赠送Monogram Mirror Keychain镜面钥匙扣",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "添加Kakao好友并在拍照亭拍摄",
+      "reward": "拍出特定〈Lucky Frame〉相框可获赠店内指定商品一件",
+      "purchase_required": false,
+      "chance": "抽奖",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/27发帖的博主",
+      "text": "成功拿到了购买赠品化妆包，并尝试了多款当季新品外套与毛呢夹克。",
+      "src": "B1",
+      "url": "https://blog.naver.com/realreview12/224455466724",
+      "date": "2026-10-27"
+     },
+     {
+      "who_when": "10/28发帖的博主",
+      "text": "现场试穿了热门的米尔毛皮夹克和路易斯鹅绒夹克，体验感非常好。",
+      "src": "B2",
+      "url": "https://blog.naver.com/wldms0147258/224456836947",
+      "date": "2026-10-28"
+     }
+    ],
+    "tips": [
+     {
+      "text": "快闪店营业时间为每日11:00至20:00。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "钥匙扣的字母刻字服务仅在10月27日至11月1日的首周提供。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "[시에 SIE] SIE X ESSAIS 성수 팝업, 시에 sie 팝업, 코니 더블 페이스 가디....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/realreview12/224455466724",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "시에 X 에세이즈 성수 팝업 후기｜미르 퍼 재킷, 루이스 구스 패딩 ....",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/wldms0147258/224456836947",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "이번 주 성수, 어디 갈까? 새로 여는 팝업 6곳 | 10월 27일~11월 1일",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/meljju/224454249148",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "시에 X 에세이즈 성수 팝업 11월 10일까지, 신상 아우터·슈즈 먼저 보....",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/3_able/224461524297",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "시에 × 에세이즈 성수 팝업, 먼저 공개된 신상품부터 살펴보기",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/gmlals1994/224455234660",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6409",
    "nav": "nmap://route/walk?dlat=37.543115&dlng=127.0534919&dname=%EC%8B%9C%EC%97%90%20X%20%EC%97%90%EC%84%B8%EC%9D%B4%EC%A6%88%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -409,9 +1464,9 @@
     "gift"
    ],
    "what": "首尔林UNICEF花园的侦探史努比任务联名花园",
-   "line1": "与侦探史努比一起解决事件 → 环保袋、贴纸包等",
+   "line1": "漫步首尔林花园打卡风衣史努比雕塑，扫描QR码完成3道解谜任务与公益互动。",
    "conds": [
-    "小任务就送"
+    "不用买"
    ],
    "hours": "12:00~19:00",
    "acts": [
@@ -428,6 +1483,119 @@
    "when": "2026-09-10 ~ 2026-11-16",
    "addr": "서울 성동구 뚝섬로 273",
    "ev": "탐정 스누피와 함께 사건 해결 시 특별 선물 증정 *에코백, 스티커팩 등(한정 수량/선착순)",
+   "x": {
+    "theme": "侦探史努比与联合国儿童基金会联名花园快闪店",
+    "card_offer": "完成解谜任务可免费先到先得获赠史努比贴纸包或环保袋等限定礼品。",
+    "summary": "该活动为联合国儿童基金会与史努比合作的户外公益快闪店，适合在首尔林散步游玩及喜爱史努比的游客顺道打卡。",
+    "scene": [
+     {
+      "text": "现场设有穿风衣、拿着放大镜的大型侦探史努比雕塑及角色打卡点。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "沿花园步道游览并观赏2026首尔国际庭园博览会的展品。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "现场领取折页并扫描QR码，参与3道儿童救助相关的解谜答题。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "扫描QR码完成3道侦探解谜任务",
+      "reward": "史努比贴纸包、环保袋等限定礼品",
+      "purchase_required": false,
+      "chance": "先到先得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "valid_dates": "2026.09.10 ~ 2026.11.16"
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/17发帖的博主",
+      "text": "无需预约可直接入场，解答3道简单谜题后能在侦探总部领贴纸，现场还有顺带引导捐款的环节。",
+      "src": "B2",
+      "url": "https://blog.naver.com/chipu0545/224444388899",
+      "date": "2026-10-17"
+     },
+     {
+      "who_when": "10/23发帖的博主",
+      "text": "适合在圣水洞(圣水洞)吃完午饭后，顺便走去首尔林(서울숲)散步并参与史努比解谜活动。",
+      "src": "B1",
+      "url": "https://blog.naver.com/aiwithwork/224451522163",
+      "date": "2026-10-23"
+     }
+    ],
+    "tips": [
+     {
+      "text": "快闪店位于首尔林管理事务所(서울숲 관리사무소)及J-Hope森林(제이홉숲)附近。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "无需预约或排队即可直接入场，每日营业时间为12:00至19:00。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "环保袋与贴纸包的具体配额及发放标准未明确说明"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "[10월 5주차 성수 팝업] 스파오 푸퍼랜드부터 aeae 헬로키티·탐정 스....",
+      "date": "2026-10-23",
+      "url": "https://blog.naver.com/aiwithwork/224451522163",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "서울숲/성수 팝업 탐정 스누피의 잃어버린 단서 in 유니세프 정원",
+      "date": "2026-10-17",
+      "url": "https://blog.naver.com/chipu0545/224444388899",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "[서울숲 팝업] '탐정 스누피의 잃어버린 단서 in 유니세프 정원' 총정....",
+      "date": "2026-09-16",
+      "url": "https://blog.naver.com/00j_i00/224413650011",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "서울숲 스누피 가든 유니세프 정원 미션 이벤트 기간 위치 총정리",
+      "date": "2026-09-14",
+      "url": "https://blog.naver.com/ferrarin_/224411641668",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "서울숲 스누피 팝업｜탐정 스누피 유니세프 정원 기간·미션·선물 ....",
+      "date": "2026-09-17",
+      "url": "https://blog.naver.com/masil_zip/224415167951",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5962",
    "nav": "nmap://route/walk?dlat=37.5430697&dlng=127.0417999&dname=%ED%83%90%EC%A0%95%20%EC%8A%A4%EB%88%84%ED%94%BC%EC%9D%98%20%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%20%EB%8B%A8%EC%84%9C%20in%20%EC%9C%A0&appname=com.jaepax.popup"
   },
@@ -448,11 +1616,10 @@
     "fun"
    ],
    "what": "SKT×Random Diversity脑电波感情实验展(T Factory成水)",
-   "line1": "1楼Scent of Emotion：戴脑电波VR设备闻11种香料，把心意做成独一无二的香味，并写信 → 亲手写的信和完成的专属香味",
+   "line1": "在圣水(성수)的T Factory可以体验脑파测定转换成独一无二的香气与色彩的展览。",
    "conds": [
-    "免费体验",
-    "付费体验",
-    "折扣"
+    "不用买",
+    "买了才送"
    ],
    "hours": "11:00~20:00",
    "acts": [
@@ -481,6 +1648,99 @@
    "when": "2026-09-19 ~ 2026-11-15",
    "addr": "서울 성동구 연무장1길 7-1",
    "ev": "1F | Scent of Emotion (무료, 1일 1회) 마음을 하나의 향으로 만들어 전달하는 실험실",
+   "x": {
+    "theme": "SK텔레콤 X 랜덤 다이버시티 Emotion Lab 팝업",
+    "card_offer": "1층 Scent of Emotion免费体验1日1次， 지하 1층 Color of Emotion可享SKT客户20%折扣。",
+    "summary": "这是SK텔레콤与 랜덤 다이버시티合作举办的Emotion Lab展览快闪店，通过脑파测量将情感转化为香气与色彩，适合对香水、色彩及科技体验感兴趣的访客。",
+    "scene": [
+     {
+      "text": "1층 Scent of Emotion展示区，可携带照片与信件，通过VR设备与脑파测量制作专属香气。",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "text": "B1층 Color of Emotion展示区，分析脑파数据将当前的情感提取为独一无二的色彩。",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "参加1층 Scent of Emotion项目",
+      "reward": "制作属于自己的香气",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "action": "SKT客户预约体验B1층 Color of Emotion项目",
+      "reward": "20%折扣",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/05发帖的博主",
+      "text": "圣水区域SK텔레콤 X 랜덤 다이버시티 전시 : Emotion Lab活动吸引了品牌、体验展示空间及内容关注层的目光。",
+      "src": "B1",
+      "url": "https://blog.naver.com/edeaplatz/224431729106",
+      "date": "2026-10-05"
+     },
+     {
+      "who_when": "10/21发帖的博主",
+      "text": "该展示型快闪店在圣水연무장1길 7-1运营，适合在圣水快闪路线中寻找展示与体验型空间的人。",
+      "src": "B2",
+      "url": "https://blog.naver.com/oohhcompany/224449207505",
+      "date": "2026-10-21"
+     }
+    ],
+    "tips": [
+     {
+      "text": "营业时间为每日11:00至20:00，入场截止时间为19:30，现场情况可能导致入场提早截止。",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "text": "B1층 Color of Emotion可通过T Factory资料内的Linktree进行预约。",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "이번 주 서울 팝업, 성수·홍대·여의도 어디부터 갈까",
+      "date": "2026-10-05",
+      "url": "https://blog.naver.com/edeaplatz/224431729106",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "2026년 11월 서울 팝업스토어 일정 10곳｜성수·더현대·홍대·잠실",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/oohhcompany/224449207505",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 전시 추천! SK텔레콤 X 랜덤 다이버시티 Emotion Lab 향수 체험 총....",
+      "date": "2026-09-21",
+      "url": "https://blog.naver.com/songsunlight27/224418618990",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6100",
    "nav": "nmap://route/walk?dlat=37.5449383&dlng=127.0505364&dname=SK%ED%85%94%EB%A0%88%EC%BD%A4%20X%20%EB%9E%9C%EB%8D%A4%20%EB%8B%A4%EC%9D%B4%EB%B2%84%EC%8B%9C%ED%8B%B0%20%EC%A0%84%EC%8B%9C%20&appname=com.jaepax.popup"
   },
@@ -501,9 +1761,9 @@
     "fun"
    ],
    "what": "Torriden Connect Seongsu：吸收设计主题护肤快闪",
-   "line1": "玩吸收球游戏 → 礼物(没写是什么)",
+   "line1": "现场可体验吸收瀑布与二楼精华拍照区，参与吸收球投篮游戏及免费皮肤诊断。",
    "conds": [
-    "免费体验"
+    "买了才送"
    ],
    "hours": "11:00~20:00",
    "acts": [
@@ -526,6 +1786,117 @@
    "when": "2026-07-15 ~ 2026-12-31",
    "addr": "서울 성동구 성수이로7가길 17",
    "ev": "흡수 폭포 포토존부터 몰입감 제대로인 흡수볼 게임, 피부 컨디션 체크가 가능한 피부진단 키오스크",
+   "x": {
+    "theme": "Torriden 圣水 Connect 快闪",
+    "card_offer": "任意购买1件产品即可参与5D吸收球游戏，100%获得随机礼物。",
+    "summary": "这是 Torriden 与 CORTIS 合作打造的护肤成分与吸收设计主题快闪店，适合关注肌肤保养及喜欢打卡拍照的访客。",
+    "scene": [
+     {
+      "text": "一楼设有吸收瀑布拍照区，结合了 CORTIS 成员海报。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "text": "二楼为 Dive-In 精华主题区，配合清爽水滴视觉呈现。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "现场配备智能皮肤诊断机，所有访客均可免费测试肤质。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "购买任意 1 件 Torriden 产品",
+      "reward": "参与 5D 吸收球游戏，100% 获得随机礼物",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1"
+      ],
+      "min_spend": "无门槛（买1件即可）",
+      "quota": "未说明",
+      "valid_dates": "2026-07-15 ~ 2026-12-31"
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "08/05 发帖的博主",
+      "text": "体验了吸收球投篮游戏，在拍照区看到了 CORTIS 画报，还在隔壁合作咖啡厅喝了饮品。",
+      "src": "B1",
+      "url": "https://blog.naver.com/akim1203/224368365607",
+      "date": "2026-08-05"
+     }
+    ],
+    "tips": [
+     {
+      "text": "无需提前预约，可现场排队入场；博主提到工作日去时无需排队。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "从地铁圣水站(圣水站) 3号或4号出口步行约 5 分钟即可到达。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "快闪店现场不设停车场，建议乘坐公共交通前往。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "unknowns": [
+     "5D 吸收球游戏随机礼物的具体产品清单",
+     "现场产品常态折扣的具体优惠幅度"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "토리든 커넥트 성수 팝업, 코르티스와 함께하는 딥다이브 팝업!",
+      "date": "2026-08-05",
+      "url": "https://blog.naver.com/akim1203/224368365607",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "토리든 팝업 성수 딥다이브 뉴스 오픈! 코르티스 굿즈 방문 혜택 총....",
+      "date": "2026-08-12",
+      "url": "https://blog.naver.com/hi_youm/224376153333",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수팝업 토리든 성수 파란 딥다이브 무드 후기",
+      "date": "2026-09-13",
+      "url": "https://blog.naver.com/gdgdd25/224410214310",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수 팝업 토리든 DEEP DIVE NEWS 사전예약 후기와 코르티스 스팟 패치",
+      "date": "2026-08-18",
+      "url": "https://blog.naver.com/chulsoonuna_/224382313465",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "이번 주 꼭 방문해야 하는 성수 팝업스토어 추천 토리든 DEEP DIVE NEWS ....",
+      "date": "2026-08-22",
+      "url": "https://blog.naver.com/dolidooly25/224386356914",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5790",
    "nav": "nmap://route/walk?dlat=37.5418318&dlng=127.0553011&dname=%ED%86%A0%EB%A6%AC%EB%93%A0%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -542,9 +1913,10 @@
     "brand"
    ],
    "what": "Coach秋季Live Your Story活动快闪(Musinsa Space首尔林)",
-   "line1": "收听活动原声的聆听亭、故事墙留言、明信片装饰站 → 礼物(没写是什么)",
+   "line1": "可体验听歌展位、在印章明信片与留言墙记录故事，并试背多款联名与独家手袋。",
    "conds": [
-    "免费体验"
+    "不用买",
+    "买了才送"
    ],
    "hours": "11:00~20:00",
    "acts": [
@@ -561,6 +1933,158 @@
    "when": "2026-10-19 ~ 2026-11-07",
    "addr": "서울 성동구 서울숲2길 43",
    "ev": "캠페인 사운드트랙을 감상할 수 있는 리스닝 부스부터 각자의 메시지로 하나의 이야기를 완성하는 스토리 월",
+   "x": {
+    "theme": "Coach LIVE YOUR STORY 快闪",
+    "card_offer": "完成3个集章可获棉花糖，新注册Musinsa或关注品牌店送3款徽章。",
+    "summary": "Coach在首尔林Musinsa Space举行的秋季主题快闪，结合音乐与时尚体验，适合喜欢试背包款与互动打卡者。",
+    "scene": [
+     {
+      "text": "音乐听歌展位提供6种类型的歌单供现场试听体验。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "text": "故事墙与印章明信片区可供记录个人留言与DIY装饰。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     },
+     {
+      "text": "现场展出大使特别版Tabby手袋及Musinsa独家包款。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "完成3种印章集章",
+      "reward": "Coach棉花糖(코치 솜사탕)",
+      "purchase_required": false,
+      "chance": "先到先得",
+      "src": [
+       "B1"
+      ],
+      "min_spend": "0",
+      "quota": "限量，领完即止",
+      "valid_dates": "2026-10-19~2026-11-07"
+     },
+     {
+      "action": "新注册Musinsa会员或关注Coach品牌店",
+      "reward": "徽章3款(핀 배지 3종)",
+      "purchase_required": false,
+      "chance": "先到先得",
+      "src": [
+       "B1"
+      ],
+      "min_spend": "0",
+      "quota": "限量，领完即止",
+      "valid_dates": "2026-10-19~2026-11-07"
+     },
+     {
+      "action": "在Instagram发布快闪店现场打卡照片",
+      "reward": "制作个人Photo ID卡(포토 ID 카드)",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "B1"
+      ],
+      "min_spend": "0",
+      "quota": "未说明",
+      "valid_dates": "2026-10-19~2026-11-07"
+     },
+     {
+      "action": "购买快闪店现场商品",
+      "reward": "皮质吊牌刻字服务(레더 행택 각인 서비스)",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1"
+      ],
+      "min_spend": "未说明",
+      "quota": "未说明",
+      "valid_dates": "2026-10-19~2026-11-07"
+     },
+     {
+      "action": "在街头参与巡游人员互动活动",
+      "reward": "二维码气球及拍立得拍摄(QR 풍선·폴라로이드 촬영)",
+      "purchase_required": false,
+      "chance": "未说明",
+      "src": [
+       "B1"
+      ],
+      "min_spend": "0",
+      "quota": "未说明",
+      "valid_dates": "2026-11-01、2026-11-07 (12:00~17:00)"
+     }
+    ],
+    "visits": [],
+    "tips": [
+     {
+      "text": "可通过Naver提前预约，周五至周日营业时间延长至20:00。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "建议搭乘水仁盆唐线至首尔林站(서울숲역)，往首尔林咖啡街方向步行前往。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "现场展示的产品需通过扫描二维码在Musinsa线上商城下单购买。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "unknowns": [
+     "快闪店现场是否提供免费停车位未说明",
+     "刻字服务是否有最低消费金额限制未说明"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수 코치 팝업 | 서울숲 위치와 종료일",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/mindlog13/224460900069",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 팝업 코치 스포티파이 태비 투어 예약 방법, 아이들 소연·키키....",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/peonyapple_/224459109682",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 팝업스토어 ~ 코치(COACH) LIVE YOUR STORY (feat.솜사탕)",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/sophiest_/224449098129",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수 팝업 추천 | 코치 LIVE YOUR STORY 팝업 솔직후기  길걷다가 갑자기 ....",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/dongyee_world/224456816267",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "[COACH X Spotify] 10월 성수 팝업 / 코치 X 스포티파이 태비투어",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/rud_ska/224460180674",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6433",
    "nav": "nmap://route/walk?dlat=37.5465048&dlng=127.043467&dname=%EC%BD%94%EC%B9%98%20%ED%8C%9D%EC%97%85%20%3A%20LIVE%20YOUR%20ST&appname=com.jaepax.popup"
   },
@@ -576,9 +2100,11 @@
     "fun"
    ],
    "what": "意大利牙膏Marvis在圣水Tiltable的快闪，五颗星感官之旅",
-   "line1": "关注官方账号、点赞并分享快拍、评论@朋友(10/16-10/23) → Marvis White Mint 25ml",
+   "line1": "现场可体验宇宙船概念空间中的香气与烟雾，用牙刷在白沙里寻找星星物件。",
    "conds": [
-    "线上活动"
+    "不用买",
+    "抽奖",
+    "买了才送"
    ],
    "hours": "11:00~19:00",
    "acts": [
@@ -595,6 +2121,145 @@
    "when": "2026-10-28 ~ 2026-11-01",
    "addr": "서울 성동구 아차산로 120",
    "ev": "이벤트 경품 : 마비스 화이트민트 25ml 총 25명",
+   "x": {
+    "theme": "MARVIS 圣水五感体验快闪店",
+    "card_offer": "注册官网会员并体验空间可免费获赠 White Mint 10ml 牙膏。",
+    "summary": "这是 MARVIS 在圣水 Teal Table 举办的新品 White Mint 体验快闪，适合想感受宇宙船主题五感体验及收集赠品的人。",
+    "scene": [
+     {
+      "text": "宇宙航天服面罩结构内可体验牙膏香气、声音与烟雾效果。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "宇宙船实验室展区可用牙刷在白沙中寻找星星物件。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "在 Teal Table 注册 MARVIS 官网会员并完成主展区体验",
+      "reward": "White Mint 牙膏 10ml",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "action": "在 Musinsa Megastore 圣水 1 楼关注 MARVIS 韩国 IG 并出示 2 万韩元以上消费小票",
+      "reward": "White Mint 牙膏 10ml 及棉花糖",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ],
+      "min_spend": "2万韩元"
+     },
+     {
+      "action": "在 하루필름 圣水店添加 MARVIS 韩国 KakaoTalk 好友并拍摄限定框照片",
+      "reward": "White Mint 牙膏 10ml",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "action": "集齐 Teal Table、Musinsa 圣水及 하루필름 圣水共 3 个据点的印章",
+      "reward": "额外获赠 White Mint 牙膏 25ml",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "action": "在 Teal Table 快闪店现场消费满 4 万韩元",
+      "reward": "银色收纳包与 MARVIS 购物袋",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ],
+      "min_spend": "4万韩元"
+     },
+     {
+      "action": "发布快闪店现场认证照至 IG 并关注 @marvis_korea 及添加指定标签",
+      "reward": "VIP 套装",
+      "purchase_required": false,
+      "chance": "抽奖",
+      "src": [
+       "B2"
+      ],
+      "quota": "25人"
+     }
+    ],
+    "visits": [],
+    "tips": [
+     {
+      "text": "快闪店无需提前预约，现场排队即可免费入场。",
+      "src": [
+       "B1",
+       "B2",
+       "B3"
+      ]
+     },
+     {
+      "text": "首日 10 月 28 日从 14:00 开始开放公众入场。",
+      "src": [
+       "B1",
+       "B2",
+       "B3"
+      ]
+     }
+    ],
+    "unknowns": [
+     "现场商品具体的打折优惠幅度",
+     "하루필름 拍摄是否需要自费"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수 마비스 치약 팝업 FIND THE SHINING STAR 일정·이벤트 총정리",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/kimmy_1314/224456349330",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "10월/11월 성수 팝업 마비스(MARVIS) 화이트 민트 팝업 총정리! 스탬프 ....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/hi_nrae/224455238282",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 마비스 팝업 예약 없이 갈 수 있을까? 화이트 민트 체험·스탬....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/ohnyonyo/224455877050",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수 마비스 팝업스토어 화이트 민트 치약 증정 및 스탬프 투어 장....",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/ferrarin_/224460882139",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "성수 마비스 치약 팝업스토어 3곳 방문 위치 혜택 체험 후기",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/szenefoto/224460612046",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6384",
    "nav": "nmap://route/walk?dlat=37.5439085&dlng=127.0572663&dname=%EB%A7%88%EB%B9%84%EC%8A%A4%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -615,10 +2280,8 @@
     "fun"
    ],
    "what": "媒体素养周미리위크快闪：策划展览和密室逃脱(成水)",
-   "line1": "参观策划展《아니근데진짜만약에展》 → 无",
-   "conds": [
-    "免费体验"
-   ],
+   "line1": "在圣水(성수)可以免费观看AI主题企画展并体验密室逃脱游戏",
+   "conds": [],
    "hours": "09:50~21:00",
    "acts": [
     {
@@ -634,6 +2297,109 @@
    "when": "2026-10-24 ~ 2026-11-08",
    "addr": "서울 성동구 성수이로18길 5",
    "ev": "※ 기획전시는 사전예약 없이 무료로 입장 가능합니다. ※ 방탈출 게임은 사전 예약제로 운영됩니다. (만 12세 이상 참여 가능)",
+   "x": {
+    "theme": "2026 미리위크 팝업",
+    "card_offer": "",
+    "summary": "2026미디어리터러시주간 미리위크(ME:LI WEEK) 팝업是圣水(성수)举办的媒体素养体验活动，适合对AI与新闻判断主题感兴趣的游客。",
+    "scene": [
+     {
+      "text": "2层设有企画展〈아니근데진짜만약에 展〉，体验2046年AI深度融入日常生活的主题展示。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "1层设有密室逃脱游戏〈점프x컷〉2.0，追踪新闻线索并体验判断的改变。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [],
+    "visits": [
+     {
+      "who_when": "10/24发帖的博主",
+      "text": "提到圣水(성수) 미리위크 팝업将展会与密室逃脱结合，并总结了详细交通和预约规则。",
+      "src": "B1",
+      "url": "https://blog.naver.com/ttoza/224452591615",
+      "date": "2026-10-24"
+     },
+     {
+      "who_when": "10/26发帖的博主",
+      "text": "梳理了2层企画展免预约免费入场，而1层密실逃脱需提前预约的官方规则。",
+      "src": "B2",
+      "url": "https://blog.naver.com/comsc96/224454361833",
+      "date": "2026-10-26"
+     }
+    ],
+    "tips": [
+     {
+      "text": "企画展无需预约可免费入场，密室逃脱游戏需提前预约，满12岁以上可参与。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "周末营业时间为09:50至21:00，入場截止时间为20:20。",
+      "src": [
+       "B1",
+       "B2",
+       "B4"
+      ]
+     },
+     {
+      "text": "场馆不提供停车位，建议搭乘地铁2号线至圣水(성수)站3号出口步行前往。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수동 미리위크 2026, 무료 전시와 방탈출 게임 일정 정리",
+      "date": "2026-10-24",
+      "url": "https://blog.naver.com/ttoza/224452591615",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 미리위크, 예약 없이 가도 될까요? 무료 전시·방탈출 일정과 ....",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/comsc96/224454361833",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "미리위크 성수 팝업, 무료 전시·방탈출 예약금과 입장 조건",
+      "date": "2026-10-25",
+      "url": "https://blog.naver.com/hade_s/224453002155",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수 무료 전시 추천(예약X, 입장료X) 2026 미리위크 팝업(방탈출, 전....",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/leeablog/224453900630",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "\"1층에선 방탈출, 2층에선 전시?\"…성수 미리위크에 준비된 두 가지 ....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/inthe_design/224457858724",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6378",
    "nav": "nmap://route/walk?dlat=37.5429356&dlng=127.0578871&dname=2026%20%EB%AF%B8%EB%A6%AC%EC%9C%84%ED%81%AC%20%ED%8C%9D%EC%97%85%20-%20%EB%B0%A9%ED%83%88%EC%B6%9C%20%EA%B2%8C&appname=com.jaepax.popup"
   },
@@ -649,9 +2415,10 @@
     "fun"
    ],
    "what": "梅赛德斯-奔驰Studio Seoul展览",
-   "line1": "参观品牌展览 → 礼物(没写是什么)",
+   "line1": "在梅赛德斯-奔驰首尔工作室(메르세데스-벤츠 스튜디오 서울)内近距离观赏全新电动车、探索140年历史并体验咖啡与周边。",
    "conds": [
-    "免费体验"
+    "不用买",
+    "抽奖"
    ],
    "hours": "11:00~20:00",
    "acts": [
@@ -668,6 +2435,89 @@
    "when": "2026-05-19 ~ 2027-02-14",
    "addr": "서울 성동구 연무장길 73",
    "ev": "The Origin, The Icon, The Best or Nothing, The Senses 네 가지 키워드를 중심으로 구성된 ... 전시 공간",
+   "x": {
+    "theme": "梅赛德斯-奔驰140周年纪念快闪",
+    "card_offer": "参与二维码抽奖有机会获得价值100万韩元的AMG Ultimate Program体验券或车辆试驾权。",
+    "summary": "梅赛德斯-奔驰首尔工作室(메르세데스-벤츠 스튜디오 서울)快闪店，适合汽车爱好者及寻求室内约会或首尔圣水(圣水)游玩休息场所的访客。",
+    "scene": [
+     {
+      "text": "展出电动CLA 250+和电动GLC 300 4MATIC AMG Line+等车型，并设有免费拍照亭。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "展示梅赛德斯-奔驰140年历史的媒体展览空间，可回顾世界首辆汽油车及相关历史资料。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "设有售卖微缩模型车、雨伞、马克杯、钥匙扣、服装等多种品牌周边的商品区。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "扫描二维码参与幸运抽奖(럭키드로우)",
+      "reward": "有机会获得价值100万韩元的AMG Ultimate Program 2张或2박3일(2晚3天)车辆试驾权",
+      "purchase_required": false,
+      "chance": "抽奖",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/31发帖的博主",
+      "text": "现场人较少较清闲，未预约也无需排队，可直接现场入场参观，还能在内部舒适休息。",
+      "src": "B1",
+      "url": "https://blog.naver.com/jiana2002/224459724356",
+      "date": "2026-10-31"
+     }
+    ],
+    "tips": [
+     {
+      "text": "营业时间为周二至周日11:00至20:00，每周一固定休息，2026年11月18日至11月23日因内部施工临时休息。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "可通过Naver进行预约，拉面与咖啡区在现场情况允许下无需预约也可使用。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수 벤츠 팝업 메르세데스 벤츠 스튜디오 서울 전기차 GLC 포토부스....",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/jiana2002/224459724356",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수동 팝업, 메르세데스-벤츠 스튜디오 서울",
+      "date": "2026-08-14",
+      "url": "https://blog.naver.com/haneullineclinic/224378494480",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 메르세데스벤츠스튜디오서울｜자동차 역사부터 공감각 체험....",
+      "date": "2026-10-09",
+      "url": "https://blog.naver.com/bluemotions/224435370507",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/4965",
    "nav": "nmap://route/walk?dlat=37.5420593&dlng=127.0576533&dname=%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -684,8 +2534,10 @@
     "brand"
    ],
    "what": "英雄联盟音乐与Worlds2026快闪(Olive Young成水)",
-   "line1": "成水Olive Young限定的特别奖励(未写具体)；无需预约，现场排队入场",
-   "conds": [],
+   "line1": "在圣水Olive Young可以体验英雄联盟和K/DA音乐主题快闪店，参与现场活动并获取特别奖励。",
+   "conds": [
+    "不用买"
+   ],
    "hours": "11:00~20:00",
    "acts": [],
    "hl": "成水Olive Young限定的特别奖励(未写具体)；无需预约，现场排队入场",
@@ -694,6 +2546,67 @@
    "when": "2026-10-29 ~ 2026-11-08",
    "addr": "서울 성동구 연무장7길 13",
    "ev": null,
+   "x": {
+    "theme": "拳头游戏音乐与全球总决赛快闪店",
+    "card_offer": "参与现场活动即可获得特别奖励，具体条件参考现场公告。",
+    "summary": "本次快闪店为英雄联盟与K/DA音乐主题，适合喜爱游戏和K/DA音乐的粉丝前往参观和体验。",
+    "scene": [
+     {
+      "text": "在圣水Olive Young的Trendspot by Olive Young N圣水举办，现场设有相关音乐与赛事展示。",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "参与Trendspot by Olive Young N圣水举办的特别活动",
+      "reward": "特别奖励",
+      "purchase_required": false,
+      "chance": "未说明",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/27发帖的博主",
+      "text": "提到本次快闪不仅适合英雄联盟玩家，也是喜欢K/DA音乐的人的不错选择，建议提前确认圣水的活动日期和预约排队方式。",
+      "src": "B1",
+      "url": "https://blog.naver.com/inforyouu/224454310377",
+      "date": "2026-10-27"
+     }
+    ],
+    "tips": [
+     {
+      "text": "本活动无需预约，通过现场排队入场。",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "text": "快闪店运营时间为11:00至20:00，周边商品可能会提前售罄。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     }
+    ],
+    "unknowns": [
+     "具体的周边商品清单",
+     "详细的活动参与门槛与规则"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "2026 성수 라이엇 게임즈 팝업｜K/DA 뮤직 앤 월즈 26 일정·위치·예약....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/inforyouu/224454310377",
+      "read": true
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6454",
    "nav": "nmap://route/walk?dlat=37.544177&dlng=127.0544868&dname=%EB%9D%BC%EC%9D%B4%EC%97%87%EA%B2%8C%EC%9E%84%EC%A6%88%20%EB%AE%A4%EC%A7%81%20%26%20%EC%9B%94%EC%A6%8826%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -709,8 +2622,10 @@
     "fun"
    ],
    "what": "SKT成水T Factory跑步风格分析体验快闪",
-   "line1": "个人跑步风格高级分析，确认身体状态并找到适合自己的配速",
-   "conds": [],
+   "line1": "在圣水洞(圣水洞) T工厂(T팩토리 성수)体验AI跑步姿势分析、专业教练指导及佳明(Garmin)、韶音(Shokz)智能跑步装备。",
+   "conds": [
+    "买了才送"
+   ],
    "hours": "11:00~20:00",
    "acts": [],
    "hl": "个人跑步风格高级分析，确认身体状态并找到适合自己的配速",
@@ -719,6 +2634,114 @@
    "when": "2026-10-20 ~ 2026-11-01",
    "addr": "서울 성동구 연무장1길 7-1",
    "ev": null,
+   "x": {
+    "theme": "圣水(성수) 跑者体态与AI跑步分析快闪店(팝업)",
+    "card_offer": "SKT用户本人及同行最多5人可免费参与，非SKT用户每人3.5万韩元(35,000원)。",
+    "summary": "这是由SK텔레콤在圣水洞举办的跑步分析体验快闪店(팝업)，适合想检测身体平衡、改善跑步姿势及体验专业跑步设备的跑步爱好者。",
+    "scene": [
+     {
+      "text": "使用3D相机等设备进行体测，检查身体平衡、稳定性和动作。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "在跑步机上边跑边通过AI和专业教练分析跑步姿势与着地模式。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "无需预约即可自由体验佳明(Garmin)智能手表和韶音(Shokz)开放式耳机。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "SKT用户预约并于现场核实会员资格后全额退还预约金",
+      "reward": "本人及同行共最多5人免费体验AI跑步分析",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "11月1日发帖的博主",
+      "text": "SKT会员预约后前往T工厂圣水(T팩토리 성수)体验了免费跑步姿势分析与教练指导。",
+      "src": "B5",
+      "url": "https://blog.naver.com/shiyouji24/224461292759",
+      "date": "2026-11-01"
+     }
+    ],
+    "tips": [
+     {
+      "text": "AI跑步分析与专业教练指导需通过官方页面(runmate.co.kr/runmate_camp)进行事前预约，预约时需支付每人1万韩元(10,000원)。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "使用日前一天取消可全额退款，但当天下单取消或预约时间起40分钟内未访问则不予退款。",
+      "src": [
+       "B1"
+      ]
+     },
+     {
+      "text": "佳明(Garmin)和韶音(Shokz)装备体验区无需事前预约，任何人皆可参与。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "SKT 런메이트 캠프 | 무료 체험 조건과 사전예약 완벽가이드",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/bskang24/224448668020",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 런메이트 캠프 2026｜SKT 고객 무료? AI 러닝 분석 예약·가격·일....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/inforyouu/224456788044",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "5명까지 무료. SKT 런메이트 캠프 T팩토리 성수",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/qse120303/224455980781",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "“님 달리기 자세 보실게요” 친구랑 성적표 받으러 가는 성수 이색....",
+      "date": "2026-10-25",
+      "url": "https://blog.naver.com/hongciya/224453056017",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "[서울/성수] SKT 런메이트 캠프 후기｜무료 러닝 자세 분석과 코칭 체....",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/shiyouji24/224461292759",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6404",
    "nav": "nmap://route/walk?dlat=37.5449383&dlng=127.0505364&dname=SKT%20%EB%9F%B0%EB%A9%94%EC%9D%B4%ED%8A%B8%20%EC%BA%A0%ED%94%84&appname=com.jaepax.popup"
   },
@@ -736,8 +2759,11 @@
     "fun"
    ],
    "what": "rom&nd 10周年生日派对主题快闪，2016复古风",
-   "line1": "2016年复古造型主题，蛋糕拍照点",
-   "conds": [],
+   "line1": "重回2016年复古风潮，现场可打卡3层粉色蛋糕拍照区、体验唇彩试色并制作专属DIY镜子。",
+   "conds": [
+    "不用买",
+    "买了才送"
+   ],
    "hours": "10:00~22:00",
    "acts": [],
    "hl": "2016年复古造型主题，蛋糕拍照点",
@@ -746,6 +2772,112 @@
    "when": "2026-10-10 ~ 2026-11-10",
    "addr": "서울 성동구 연무장길 88",
    "ev": null,
+   "x": {
+    "theme": "rom&nd 10周年快闪店",
+    "card_offer": "完成现场SNS认证及频道添加，100%中奖获得抽奖券。",
+    "summary": "这是rom&nd品牌为庆祝10周年在圣水(圣水)开办的以Dear Bestie Party为主题的粉色办公室快闪店，适合喜爱韩妆与拍照的访客。",
+    "scene": [
+     {
+      "text": "历史区展示了自2016年以来的10年唇釉与眼影变迁史。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "触感与试色区提供全系列产品发色测试及寻找专属唇色服务。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "粉色生日派对拍照区设有3层粉色蛋糕与气球造景。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "完成现场任务（添加官方微信/KakaoTalk频道及SNS认证）",
+      "reward": "100%中奖的抽奖券参与机会",
+      "purchase_required": false,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "action": "购买10周年限定版产品（11月1日起部分上线）",
+      "reward": "100%限量版包装及迷你唇釉套装",
+      "purchase_required": true,
+      "chance": "先到先得",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/31发帖的博主",
+      "text": "在首尔圣水(성수)开设了充满粉色的独立快闪店，有丰富的手工镜子DIY和唇部产品体验。",
+      "src": "B2",
+      "url": "https://blog.naver.com/newsdmai/224460163973",
+      "date": "2026-10-31"
+     }
+    ],
+    "tips": [
+     {
+      "text": "可通过官方Instagram或KakaoTalk频道进行分周预约，预约者可快速入场。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "未预约可在现场入口平板电脑登记后排队入场。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수 11월 팝업 2026｜롬앤·T팩토리·드래곤볼·짱구 기간·예약·마감....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/sofeman21/224457216959",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "[성수 팝업스토어] 롬앤 10주년 팝업 '디어 베스티 파티' 완벽 가이드....",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/newsdmai/224460163973",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "[성수팝업]성수 롬앤 10주년 팝업스토어 'Dear Bestie' 총정리!",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/bonniebeerang/224449052287",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "롬앤 10주년 팝업, 이벤트로 가득 채운 핑크오피스",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/dorori12/224448376859",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "성수 팝업 나들이 :: 오브히 아카이브, 롬앤 핑크오피스, 옹근달",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/julliet_/224458976307",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6252",
    "nav": "nmap://route/walk?dlat=37.5412902&dlng=127.0588878&dname=%EB%A1%AC%EC%95%A4%20%ED%8C%9D%EC%97%85%20%3A%2010%EC%A3%BC%EB%85%84%20%EC%83%9D%EC%9D%BC%ED%8C%8C%ED%8B%B0&appname=com.jaepax.popup"
   },
@@ -761,9 +2893,9 @@
     "paid"
    ],
    "what": "龙珠雕像与名场景再现展，在Stage X圣水",
-   "line1": "参加展览互动内容 → 礼物(没写是什么)",
+   "line1": "在圣水(성수)举办的龙珠亚洲巡回展，带来实景雕像与 에네르기파 互动体验。",
    "conds": [
-    "付费体验"
+    "买了才送"
    ],
    "hours": "11:00~21:00",
    "acts": [
@@ -780,6 +2912,117 @@
    "when": "2026-08-22 ~ 2026-11-15",
    "addr": "서울 성동구 뚝섬로 403",
    "ev": null,
+   "x": {
+    "theme": "龙珠沉浸式互动展在圣水",
+    "card_offer": "通过 비밀 平台购票可获随机小卡，残疾人本人享 20% 折扣。",
+    "summary": "龙珠英雄崛起亚洲巡回展首尔站是一场沉浸式互动展览，重现经典场景并提供丰富的体感游戏，适合龙珠粉丝及喜爱趣味体验的观众。",
+    "scene": [
+     {
+      "text": "设有孙悟空、贝吉塔、弗利萨和沙鲁等角色的实景大小雕像，并还原了多处经典名场面。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "可以体验 에네르기파 发射、玛蜂波、合体和元气弹等招式，并使用网页应用搜集龙珠。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "在秘密(비밀)票务平台购票",
+      "reward": "随机小卡",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ],
+      "min_spend": "28000韩元"
+     },
+     {
+      "action": "残疾人现场凭证件购票",
+      "reward": "20% 门票折扣",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "11/01发帖的博主",
+      "text": "提到这是一场龙珠粉丝不容错过的沉浸式互动展，可以体验游戏并重温名场面。",
+      "src": "B1",
+      "url": "https://blog.naver.com/namhj2007/224461362544",
+      "date": "2026-11-01"
+     },
+     {
+      "who_when": "10/26发帖的博主",
+      "text": "介绍了从2楼到1楼按原著顺序参观的9个展区，并体验了各类招式和龙珠搜集。",
+      "src": "B2",
+      "url": "https://blog.naver.com/travelgoto/224446472029",
+      "date": "2026-10-26"
+     }
+    ],
+    "tips": [
+     {
+      "text": "可通过 비밀 或 Naver 预约购票，现场凭预定记录入场，展区一经离场不可再次入内。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "展馆没有专属停车场，建议使用附近公共停车场或搭乘公共交通前往。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수 팝업 추천｜드래곤볼 히어로즈 라이즈 서울, 명장면 속으로!",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/namhj2007/224461362544",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 드래곤볼 히어로즈 라이즈 아시아투어 서울 11월 15일까지, 입....",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/travelgoto/224446472029",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 드래곤볼 팝업스토어 드래곤볼 히어로즈 라이즈 서울 전시 후....",
+      "date": "2026-09-13",
+      "url": "https://blog.naver.com/zerogegae/224401010542",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "드래곤볼 히어로즈 라이즈 아시아 투어 서울 성수 전시회 일정 티켓....",
+      "date": "2026-08-26",
+      "url": "https://blog.naver.com/luxchu_u/224390729494",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "드래곤볼 팝업·전시회·굿즈 2026 총정리, \"에네르기파를 직접 쏜다....",
+      "date": "2026-10-16",
+      "url": "https://blog.naver.com/godduki4/224442366487",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5793",
    "nav": "nmap://route/walk?dlat=37.53884&dlng=127.0556486&dname=%EB%93%9C%EB%9E%98%EA%B3%A4%EB%B3%BC%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88%20%EB%9D%BC%EC%9D%B4%EC%A6%88%20%EC%84%9C%EC%9A%B8&appname=com.jaepax.popup"
   },
@@ -795,8 +3038,12 @@
     "paid"
    ],
    "what": "《蜡笔小新》时空大冒险互动体验展(国内首次，成水)",
-   "line1": "互动体验型展览，蜡笔小新时空冒险题材",
-   "conds": [],
+   "line1": "在圣水(성수)的秘境舞台(스테이지 비밀 성수)体验蜡笔小新时空大冒险，看巨型小新并参与互动小游戏与收集任务。",
+   "conds": [
+    "不用买",
+    "抽奖",
+    "买了才送"
+   ],
    "hours": "10:00~20:00",
    "acts": [],
    "hl": "互动体验型展览，蜡笔小新时空冒险题材",
@@ -805,6 +3052,111 @@
    "when": "2026-10-17 ~ 2027-01-24",
    "addr": "서울 성동구 연무장5길 9-29",
    "ev": null,
+   "x": {
+    "theme": "蜡笔小新快闪沉浸式体验展",
+    "card_offer": "关注官方账号并上传照片即可参与抽奖，集齐角色还有机会获得贴纸和壁纸等奖励。",
+    "summary": "这是国内首个蜡笔小新时空大冒险互动体验展，展出涵盖多部剧场版世界观。适合小新粉丝、亲子家庭以及在圣水(성수)约会的人群。",
+    "scene": [
+     {
+      "text": "展厅还原了多部剧场版世界观，设有巨型小新、忍者村修炼场以及妮妮的房间等互动场景。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "现场设有识别面部与身体来推荐匹配角色的体验区，以及角色涂鸦和绘画比赛区。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "入场前在拍照区拍照并上传至Instagram并关注官方账号",
+      "reward": "抽奖机会",
+      "purchase_required": false,
+      "chance": "抽奖",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "action": "完成寻找角色的互动任务",
+      "reward": "手机壁纸及小贴纸",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/22发帖的博主",
+      "text": "现场限流进入，空间比想象中大，各个剧场版的主题还原度很高，游戏部分有一定难度。",
+      "src": "B1",
+      "url": "https://blog.naver.com/keroro525/224450281995",
+      "date": "2026-10-22"
+     },
+     {
+      "who_when": "10/21发帖的博主",
+      "text": "展区很宽敞，融合了展览、任务和游戏，23,000韩元门票物有所值。",
+      "src": "B2",
+      "url": "https://blog.naver.com/geniemood/224448364543",
+      "date": "2026-10-21"
+     }
+    ],
+    "tips": [
+     {
+      "text": "可以通过秘密(be-mill)平台提前购票，现场报手机号后四位入场。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "建议提前关注官方Instagram账号并准备好购票凭证，以便节省入场时间。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "门票一经售出不可转让，退场后无法重新入场。",
+      "src": [
+       "B1"
+      ]
+     }
+    ],
+    "unknowns": [
+     "现场确切排队等待时长"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "짱구는 못말려 시공간 대모험·성수 전시·예매｜입장료와 체험 굿....",
+      "date": "2026-10-22",
+      "url": "https://blog.naver.com/keroro525/224450281995",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 팝업 | 짱구는 못말려 전시 후기 | 성수 데이트 코스 추천",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/geniemood/224448364543",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 ‘드래곤볼·짱구’ 체험전과 추억의 만화가 여가가 된 이유",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/tiger_jim/224456190633",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5949",
    "nav": "nmap://route/walk?dlat=37.5444463&dlng=127.0520483&dname=%EC%A7%B1%EA%B5%AC%EB%8A%94%20%EB%AA%BB%EB%A7%90%EB%A0%A4%20%EC%A0%84%EC%8B%9C%20%3A%20%EC%8B%9C%EA%B3%B5%EA%B0%84%20%EB%8C%80%EB%AA%A8%ED%97%98&appname=com.jaepax.popup"
   },
@@ -825,9 +3177,9 @@
     "food"
    ],
    "what": "面包市集x Toss，聚集面包店，Seongsu 3天",
-   "line1": "用Toss Face Pay付款，参加Toss活动 → 礼物(没写是什么)",
+   "line1": "在圣水(성수)400坪空间集结30多家全国面包店与生活品牌，使用Toss(토스)人脸支付体验各种面包与周边。",
    "conds": [
-    "免费体验"
+    "不用买"
    ],
    "hours": "11:00~18:00",
    "acts": [
@@ -850,6 +3202,116 @@
    "when": "2026-10-30 ~ 2026-11-01",
    "addr": "서울 성동구 아차산로11가길 6",
    "ev": "빵미새를 위한 토스 빵 가방과 굿즈, 포토부스 등 다양한 이벤트",
+   "x": {
+    "theme": "圣水(성수)面包大庆典面包力集市(빵력장터)快闪(팝업)",
+    "card_offer": "通过Toss(토스)人脸支付及现场参与条件可获得面包包、周边及照相亭福利",
+    "summary": "由面包策展媒体面包早安(빵모닝)与Toss(토스)联合举办的面包力集市(빵력장터)快闪(팝업)活动，适合喜欢面包和甜点的访客前往圣水(성수)选购。",
+    "scene": [
+     {
+      "text": "约400坪规模的空间内汇集了面包、甜点、餐饮和生活方式品牌。",
+      "src": [
+       "P",
+       "B2"
+      ]
+     },
+     {
+      "text": "现场设有Toss(토스)人脸支付体验、限定周边以及照相亭等活动。",
+      "src": [
+       "P",
+       "B1"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "根据Toss(토스)人脸支付结算及现场参与条件",
+      "reward": "面包包、周边、照相亭福利及折扣券",
+      "purchase_required": false,
+      "chance": "未说明",
+      "src": [
+       "P",
+       "B2"
+      ]
+     }
+    ],
+    "visits": [
+     {
+      "who_when": "10/27发帖的博主",
+      "text": "提到今年面包力集市(빵력장터)在圣水동(圣水洞)어브스튜디오举办，规模约400坪，可使用人脸支付。",
+      "src": "B1",
+      "url": "https://blog.naver.com/booty1020/224454727129",
+      "date": "2026-10-27"
+     },
+     {
+      "who_when": "10/29发帖的博主",
+      "text": "提到集结全国30多家面包美食店，有单品新菜单，且可联动圣水동(圣水洞)周边咖啡店。",
+      "src": "B2",
+      "url": "https://blog.naver.com/ki_has/224457427856",
+      "date": "2026-10-29"
+     }
+    ],
+    "tips": [
+     {
+      "text": "现场无单独停车信息，建议使用大众交通。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "建议提前在Toss(토스)应用中注册人脸支付服务以节省时间。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "现场建议自备折叠环保袋、保鲜冰包及面包刀以便打包和保存。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "具体的入场排队规则及现场实时库存情况"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "2026 성수 빵력장터 토스 팝업 일정 빵집 라인업 페이스페이 굿즈 총....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/booty1020/224454727129",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 팝업 빵력장터 라인업 30곳·운영시간·토스 혜택 총정리",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/ki_has/224457427856",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "[성수 빵력장터] 빵력장터 팝업 금요일 후기｜웨이팅·입장 방법·라....",
+      "date": "2026-10-30",
+      "url": "https://blog.naver.com/ogreeneryo/224459464861",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "10/30~11/1 성수 빵력장터 팝업 총정리!일정·위치·참여 빵집·굿즈 이....",
+      "date": "2026-10-29",
+      "url": "https://blog.naver.com/sweetheart0418/224458342433",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "코코로카라 성수 뽀니 팝업 빵력장터 콜라보 푸딩 3종 리뷰",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/simpoori/224460320746",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6377",
    "nav": "nmap://route/walk?dlat=37.5462387&dlng=127.0608769&dname=%EB%B9%B5%EB%A0%A5%EC%9E%A5%ED%84%B0%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -865,10 +3327,8 @@
     "food"
    ],
    "what": "辛拉面40周年餐厅，可DIY拉面与品尝海外泡面",
-   "line1": "自选面、调料包、配料做DIY拉面 → 自己做的拉面",
-   "conds": [
-    "付费体验"
-   ],
+   "line1": "在圣水(圣水)的新拉麵(Shin Ramyun)分店工厂快闪店里，不仅能探索新拉麵(Shin Ramyun) 40年历史，还能亲自动手定制专属拉麵(Ramyun)、品尝海外特色拉麵与各种食谱料理。",
+   "conds": [],
    "hours": "09:00~18:00",
    "acts": [
     {
@@ -890,6 +3350,101 @@
    "when": "2026-06-16 ~ 2026-12-16",
    "addr": "서울 성동구 성수일로4길 52",
    "ev": "면, 스프, 토핑 등을 내 맘대로 골라 만드는 DIY 라면 만들기를 체험할 수 있습니다.",
+   "x": {
+    "theme": "신라면(Shin Ramyun)上市40周年快闪店",
+    "card_offer": "",
+    "summary": "农心(Nongshim)为纪念新拉麵(Shin Ramyun)上市40周年在圣水(圣水)开设的体验型快闪店，适合喜欢拉麵的游客及家庭前往游玩。",
+    "scene": [
+     {
+      "text": "1层设有新拉麵(Shin Ramyun)迷你博物馆、品牌周边商品区以及扭蛋机体验区。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "2层可以体验亲手制作专属杯面，选择面条粗细、汤底与5种喜爱的配料，并可将现场拍摄的照片印在包装上。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "2层提供汉江拉麵机器煮面体验，还能品尝泰国风格的冬阴功拉麵等海外销售的特色新拉麵(Shin Ramyun)。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [],
+    "visits": [
+     {
+      "who_when": "10/23发帖的博主",
+      "text": "访问当天的平日没有排队，品尝了冬阴功拉麵觉得很好吃，带孩子去体验了制作专属拉麵和扭蛋机。",
+      "src": "B2",
+      "url": "https://blog.naver.com/273cm/224451001918",
+      "date": "2026-10-23"
+     },
+     {
+      "who_when": "10/21发帖的博主",
+      "text": "平日访问无需排队，体验了自制拉麵并品尝了带有各种配料的拉麵，还能打印照片贴在包装上做纪念。",
+      "src": "B1",
+      "url": "https://blog.naver.com/softheal/224449153869",
+      "date": "2026-10-21"
+     }
+    ],
+    "tips": [
+     {
+      "text": "运营时间为每天11:00至20:00，入场免费，部分体验和餐饮收费。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "周末访问人数较多时，建议通过Catch Table应用确认现场排队情况。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "성수동 신라면 팝업 | 신라면분식 더 팩토리 나만의 라면 만들기 체....",
+      "date": "2026-10-21",
+      "url": "https://blog.naver.com/softheal/224449153869",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "성수 신라면 팝업 웨이팅 후기, 똠양꿍 라면 추천과 어린이 메뉴",
+      "date": "2026-10-23",
+      "url": "https://blog.naver.com/273cm/224451001918",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "성수 팝업스토어 신라면분식 더 팩토리 아이와 라면 만들기 체험 후....",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/tkdkrta/224454238788",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수팝업] 농심팝업 신라면분식 더 팩토리 아이와 방문후기 (feat.대....",
+      "date": "2026-10-31",
+      "url": "https://blog.naver.com/12haha/224460546378",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5243",
    "nav": "nmap://route/walk?dlat=37.5424984&dlng=127.0543264&dname=%EC%8B%A0%EB%9D%BC%EB%A9%B4%EB%B6%84%EC%8B%9D%20%EB%8D%94%20%ED%8C%A9%ED%86%A0%EB%A6%AC%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -905,7 +3460,7 @@
     "food"
    ],
    "what": "西西里ESPEERIA披萨店在圣水Seoul Brewery屋顶的4天披萨派对",
-   "line1": "屋顶上现烤西西里窑烤披萨配首尔酿酒厂啤酒，免费入场",
+   "line1": "在圣水洞的屋顶上享受刚出炉的正宗西西里火炉披萨与冰镇啤酒的披萨派对。",
    "conds": [],
    "hours": "12:00~21:00",
    "acts": [],
@@ -915,6 +3470,43 @@
    "when": "2026-10-29 ~ 2026-11-01",
    "addr": "서울 성동구 연무장길 28-12",
    "ev": "* Free entry! (자유 입장) * 피자와 맥주는 현장에서 구매하실 수 있습니다.",
+   "x": {
+    "theme": "西西里风情披萨派对快闪店",
+    "card_offer": "",
+    "summary": "来自西西里的埃斯佩리아披萨里亚(ESPEERIA PIZZERIA)快闪店，在首尔圣水(Seongsu)带来仅限4天的屋顶披萨派对，适合喜欢美食与社交的游客。",
+    "scene": [
+     {
+      "text": "在火炉前观看披萨饼师揉面团，体验充满西西里风情的下午和夜晚。",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "text": "在首尔啤酒厂(Seoul Brewery)圣水顶楼露台享用刚出炉的西西里火炉披萨与冰镇啤酒。",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "offers": [],
+    "visits": [],
+    "tips": [
+     {
+      "text": "实行自由入场，披萨和啤酒可在现场购买。",
+      "src": [
+       "P"
+      ]
+     },
+     {
+      "text": "活动在户外屋顶举行，若因天气原因有变动将通过官方账号公布。",
+      "src": [
+       "P"
+      ]
+     }
+    ],
+    "unknowns": [],
+    "blogs": []
+   },
    "page": "https://popply.co.kr/popup/6458",
    "nav": "nmap://route/walk?dlat=37.54307&dlng=127.0522841&dname=%EC%97%90%EC%8A%A4%ED%8E%98%EB%A6%AC%EC%95%84%20%ED%94%BC%EC%9E%90%EB%A6%AC%EC%95%84%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   },
@@ -930,7 +3522,7 @@
     "food"
    ],
    "what": "Old Ferry Donut成宗店",
-   "line1": "Old Ferry Donut成宗店",
+   "line1": "在首尔圣水洞的老渡口甜甜圈(올드페리도넛 성수)品尝美味甜甜圈，打卡精美店内环境与周边商品。",
    "conds": [],
    "hours": "11:00~21:00",
    "acts": [],
@@ -940,6 +3532,85 @@
    "when": "2026-06-29 ~ 2027-12-31",
    "addr": "서울 성동구 성수이로16길 5",
    "ev": null,
+   "x": {
+    "theme": "老渡口甜甜圈圣水快闪",
+    "card_offer": "",
+    "summary": "这是首尔三大甜甜圈品牌之一的老渡口甜甜圈(올드페리도넛)在圣水(성수)开设的店铺，适合喜欢甜食和打卡拍照的甜品爱好者。",
+    "scene": [
+     {
+      "text": "一侧墙面上陈列着带有品牌卡通形象的T恤、环保袋、雨伞等周边商品供人观赏。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "通过落地窗可以看到郁郁葱葱的树木和户外风景，营造出都市中的疗愈空间感。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "offers": [],
+    "visits": [
+     {
+      "who_when": "10/19发帖的博主",
+      "text": "巧克力和奥利奥等甜甜圈口味浓郁，搭配冰美式咖啡口感正好，非常适合拍照发Ins。",
+      "src": "B2",
+      "url": "https://blog.naver.com/happy_puppy_daily/224446185390",
+      "date": "2026-10-19"
+     }
+    ],
+    "tips": [
+     {
+      "text": "热门菜单可能会提前售罄，建议访问前查看想吃的菜单阵容。",
+      "src": [
+       "B2"
+      ]
+     },
+     {
+      "text": "店铺没有单独准备停车空间，建议使用附近的公用停车场。",
+      "src": [
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "P官方页正文内容未提供",
+     "B1正文内容未读取到",
+     "B3正文内容未读取到",
+     "B4正文内容未读取到"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "검색해도 안나오는 성수 올드페리도넛 내돈내산 또 버터넛 먹은 후....",
+      "date": "2026-10-19",
+      "url": "https://blog.naver.com/0___s95/224445995512",
+      "read": false
+     },
+     {
+      "id": "B2",
+      "title": "[성수 카페] 도넛 덕후 소리 질러 신사동 디저트 성지 올드페리도넛 ....",
+      "date": "2026-10-19",
+      "url": "https://blog.naver.com/happy_puppy_daily/224446185390",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "올드페리도넛 애플시나몬, 티라미수, 피넛버터까지 5종 후기",
+      "date": "2026-08-25",
+      "url": "https://blog.naver.com/wldmssnla1/224388355758",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "성수동 도넛 올드페리도넛 (성수연방 근처)",
+      "date": "2026-06-21",
+      "url": "https://blog.naver.com/riichiisii/224322461032",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/5434",
    "nav": "nmap://route/walk?dlat=37.541288&dlng=127.0572471&dname=%EC%98%AC%EB%93%9C%ED%8E%98%EB%A6%AC%EB%8F%84%EB%84%9B%20%EC%84%B1%EC%88%98&appname=com.jaepax.popup"
   },
@@ -956,9 +3627,9 @@
     "brand"
    ],
    "what": "Champion在Musinsa Megastore成水按周更换主题的快闪",
-   "line1": "第一周存档特卖 → 原版卫衣、连帽衫、T恤等最高80%折扣",
+   "line1": "在圣水洞无远弗届的无时空潮流里，两周分段推出经典典藏特卖与全新秋冬外套及合作品牌。现场能直接挑选里维斯维夫(Reverse Weave)连帽衫及限定单品。",
    "conds": [
-    "折扣"
+    "买了才送"
    ],
    "hours": "11:00~22:00",
    "acts": [
@@ -975,6 +3646,122 @@
    "when": "2026-10-26 ~ 2026-11-08",
    "addr": "서울 성동구 성수이로 62",
    "ev": "리버스위브 스웻셔츠와 후디, 티셔츠, 스포츠웨어 등 오리지널 아이템을 최대 80% 할인된 가격에 만나볼 수 있다.",
+   "x": {
+    "theme": "Champion 圣水 快闪店",
+    "card_offer": "全场部分精选典藏单品限时享有最高达80%的超强折扣力度",
+    "summary": "这是一个在圣水洞无信社超级大卖场(Musinsa Megastore Seongsu)举办的Champion(챔피온)品牌快闪店。适合喜欢美式街头潮流、想要以优惠价格购买秋冬服饰和经典连帽衫的消费者前来挑选。",
+    "scene": [
+     {
+      "text": "第一周主打品牌典藏特卖，汇聚了连帽衫、卫衣以及经典原创单品，提供最高八折的限时折扣。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "第二周切换为秋冬新品外套和合作系列，展示了包括PUFFER羽绒服、抓绒衣及棒球夹克在内的单品。",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ]
+     },
+     {
+      "text": "现场联动了罗尔(RAWROW)与威肯德(WKNDRS)两个品牌，带来独具匠心的合作服装及包袋配饰。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "offers": [
+     {
+      "action": "购买第一周典藏系列商品",
+      "reward": "最高享8折优惠",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "P",
+       "B1",
+       "B2"
+      ],
+      "valid_dates": "2026.10.26 ~ 2026.11.01"
+     },
+     {
+      "action": "购买第二周FW新品外套",
+      "reward": "部分商品最高享4折优惠",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1",
+       "B2"
+      ],
+      "valid_dates": "2026.11.02 ~ 2026.11.08"
+     },
+     {
+      "action": "购买罗尔(RAWROW)与威肯德(WKNDRS)合作系列",
+      "reward": "最高享2折优惠",
+      "purchase_required": true,
+      "chance": "必得",
+      "src": [
+       "B1",
+       "B2"
+      ],
+      "valid_dates": "2026.11.02 ~ 2026.11.08"
+     }
+    ],
+    "visits": [],
+    "tips": [
+     {
+      "text": "快闪店运营时间为每天11:00至22:00，具体折扣与陈列商品会根据访问周次发生变化。",
+      "src": [
+       "B1",
+       "B2"
+      ]
+     }
+    ],
+    "unknowns": [
+     "现场是否需要提前预约或现场排队等候规则未完全说明"
+    ],
+    "blogs": [
+     {
+      "id": "B1",
+      "title": "챔피온 성수 팝업 2주간 진행! 아카이브 최대 80% 할인부터 신상까지",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/hi_youm/224454134885",
+      "read": true
+     },
+     {
+      "id": "B2",
+      "title": "챔피온 무신사 메가스토어 성수 팝업, 리버스위브 최대 80% 세일과 ....",
+      "date": "2026-10-26",
+      "url": "https://blog.naver.com/kenetics/224453739924",
+      "read": true
+     },
+     {
+      "id": "B3",
+      "title": "2026년 11월 성수동 팝업스토어 & 전시 일정 총정리 (러브라이브 15주....",
+      "date": "2026-10-27",
+      "url": "https://blog.naver.com/gongchil_/224455092561",
+      "read": false
+     },
+     {
+      "id": "B4",
+      "title": "[트렌드 LAB] 무신사 메가스토어 성수 '챔피온 아카이브 세일 팝업' ....",
+      "date": "2026-10-28",
+      "url": "https://blog.naver.com/teundspacegure/224456476590",
+      "read": false
+     },
+     {
+      "id": "B5",
+      "title": "2026년 11월 서울 전시·팝업 일정｜노스페이스 화이트라벨·뱅크시·....",
+      "date": "2026-11-01",
+      "url": "https://blog.naver.com/edeaplatz/224461152650",
+      "read": false
+     }
+    ]
+   },
    "page": "https://popply.co.kr/popup/6457",
    "nav": "nmap://route/walk?dlat=37.5403145&dlng=127.0558768&dname=%EC%B1%94%ED%94%BC%EC%98%A8%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
   }
