@@ -111,6 +111,7 @@ details p{margin:6px 0;line-height:1.5}
 .vis b{display:block;font-size:12px;color:var(--sub);font-weight:600}.vis a{color:var(--brand);font-size:12px;white-space:nowrap}
 .unk{font-size:12px;color:#b26a00;background:#fff8e1;border-radius:8px;padding:8px 10px;margin-top:10px}
 .more summary{font-size:14px;color:var(--sub);padding:6px 0;cursor:pointer}
+.gate{background:var(--bg);border-radius:12px;padding:4px 12px;margin:4px 0 10px}.gate>div{display:flex;gap:10px;padding:5px 0;font-size:14px;line-height:1.45}.gate span{flex:0 0 40px;color:var(--sub)}
 #toast{position:fixed;left:50%;top:40%;transform:translateX(-50%);background:rgba(25,31,40,.9);color:#fff;padding:10px 16px;border-radius:10px;font-size:14px;z-index:50;display:none}
 #err{position:absolute;top:120px;left:16px;right:16px;z-index:5;font-size:14px;color:var(--sub);display:none}
 </style>
@@ -120,7 +121,7 @@ details p{margin:6px 0;line-height:1.5}
 <div id="err"></div>
 <div id="top">
   <div id="where"><b id="area">加载中…</b><span id="day"></span></div>
-  <div id="rhead"><button id="rback">← 回到全部</button><span id="rnote">虚线 = 建议顺序，不是步行路线</span></div>
+  <div id="rhead"><button id="rback">← 回到全部</button><span id="rnote">虚线 = 建议顺序，不是步行路线</span><button id="rsort">按远近重排</button></div>
   <div id="chips"></div>
 </div>
 <div id="sheet">
@@ -148,6 +149,7 @@ function short(w){ return String(w || "").replace(/\d{4}-0?(\d+)-0?(\d+)/g, "$1/
 var SK = "pick:" + DN;
 try { picked = JSON.parse(localStorage.getItem(SK) || "[]") } catch (e) {}
 function save(){ try { localStorage.setItem(SK, JSON.stringify(picked)) } catch (e) {} }
+var ordered = false; try { ordered = localStorage.getItem(SK + ":o") === "1" } catch (e) {}
 
 function visible(){
   if (mode === "route") return picked.map(byId).filter(Boolean);
@@ -279,7 +281,8 @@ function nearest(){
 function enterRoute(){
   mode = "route"; document.body.classList.add("route"); cur = null;
   document.documentElement.style.setProperty("--toph", $("top").offsetHeight + "px");
-  nearest(); render(); $("sheet").className = "";
+  if (!ordered) { nearest(); ordered = true; try { localStorage.setItem(SK + ":o", "1") } catch (e) {} }  // 手动调过的顺序不再被覆盖
+  render(); $("sheet").className = "";
   if (map) { drawRoute(); setTimeout(function(){ fit(picked.map(byId)) }, 260) }  // 等清单高度动画结束再算视野
 }
 function leaveRoute(){ mode = "all"; document.body.classList.remove("route"); render(); if (map) fit(visible()) }
@@ -298,6 +301,13 @@ function naverRoute(){
 function openDet(id){
   var s = byId(id), k = picked.indexOf(id), x = s.x, h = "";
   h += "<h2>" + esc(s.name) + '</h2><div class="what">' + s.tags.map(function(t){ return EMO[t] }).join(" ") + " " + esc(x && x.theme || s.what) + "</div>";
+  // 要不要钱/预约/限谁: 放在图片前, 不用划到底才发现要付费 (GPT 第四轮: SKT 卡片写免费、小贴士才说预约要钱)
+  var en = x && x.entry, gate = [];
+  if (en && en.fee) gate.push("<div><span>费用</span>" + esc(en.fee) + "</div>");
+  gate.push("<div><span>预约</span>" + esc(en && en.reserve || s.reserve || "未提及") + "</div>");
+  if (en && en.who || s.only) gate.push("<div><span>限定</span>" + esc(en && en.who || s.only) + "</div>");
+  gate.push("<div><span>今天</span>" + (s.hours ? esc(s.hours) : "营业时间待确认") + "</div>");
+  h += '<div class="gate">' + gate.join("") + "</div>";
   if (s.imgs.length) h += '<div class="gal">' + s.imgs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">' }).join("") + '</div><div class="cap">📷 popply 上的官方图（不一定是现场实拍）</div>';
   if (x) {
     if (x.summary) h += '<p class="sum">' + esc(x.summary) + "</p>";
@@ -328,9 +338,6 @@ function openDet(id){
     if (s.hl) h += '<div class="hl">✨ ' + esc(s.hl) + "</div>";
   }
   h += '<div class="kv">' +
-       "<div><span>今天</span>" + (s.hours ? esc(s.hours) : "营业时间待确认") + "</div>" +
-       "<div><span>预约</span>" + esc(s.reserve || "未提及") + "</div>" +
-       (s.only ? "<div><span>限定</span>" + esc(s.only) + "</div>" : "") +
        "<div><span>日期</span>" + esc(short(s.when)) + "</div>" +
        '<div><span>地址</span><div>' + esc(s.addr) + '<u data-copy="' + esc(s.addr) + '">复制</u></div></div></div>';
   var src = '<p><a href="' + esc(s.page) + '">popply 官方页 ›</a></p>';
@@ -356,6 +363,7 @@ $("grip").onclick = function(){ var c = $("sheet").className; $("sheet").classNa
 })();
 $("rbtn").onclick = function(){ if (mode === "route") naverRoute(); else enterRoute() };
 $("rback").onclick = leaveRoute;
+$("rsort").onclick = function(){ nearest(); render(); if (map) drawRoute(); toast("已按离车站远近重排") };
 
 function draw(){
   map = new naver.maps.Map("map", {zoom: 15, scaleControl: false, mapDataControl: false, logoControlOptions: {position: naver.maps.Position.BOTTOM_LEFT}});
