@@ -5,65 +5,166 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
 <title>快闪地图</title>
 <style>
-html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Apple SD Gothic Neo",sans-serif;background:#fff}
+:root{--brand:#ff5a1f;--green:#03c75a;--ink:#191f28;--sub:#6b7684;--line:#e5e8eb;--bg:#f2f4f6}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:-apple-system,"PingFang SC","Apple SD Gothic Neo",sans-serif;background:#fff;color:var(--ink);-webkit-tap-highlight-color:transparent}
 #map{width:100%;height:100%}  /* Naver 会把容器改成 position:relative, 只靠 inset 高度会变 0 */
-#head{position:absolute;top:10px;left:10px;right:10px;z-index:10;background:#fff;border-radius:12px;padding:10px 14px;box-shadow:0 2px 8px rgba(0,0,0,.18);font-size:15px}
-#head b{font-size:16px}
-.pin{width:30px;height:30px;border-radius:50%;background:#ff5a1f;color:#fff;font-weight:700;font-size:14px;display:flex;align-items:center;justify-content:center;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.4)}
-.pin.maybe{background:#8e8e93}
-.pin.start{background:#03c75a;width:auto;padding:0 8px;border-radius:15px;font-size:12px}
-#card{position:absolute;left:10px;right:10px;bottom:16px;z-index:10;background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 2px 12px rgba(0,0,0,.25);display:none;max-height:55%;overflow:auto;font-size:15px;line-height:1.5}
-#card h3{margin:0 0 6px;font-size:17px}
-#card .row{margin:4px 0}
-#card .orig{color:#666;font-size:13px;margin-top:8px}
-#card .btns{display:flex;gap:8px;margin-top:12px}
-#card .btns a{flex:1;text-align:center;padding:10px 0;border-radius:10px;text-decoration:none;font-weight:600}
-.go{background:#03c75a;color:#fff}.see{background:#f2f2f7;color:#111}
-#x{position:absolute;right:12px;top:8px;font-size:22px;color:#999;text-decoration:none}
-#err{padding:20px;font-size:15px;display:none}
+
+/* 顶部: 一行标题胶囊 + 「全部」 */
+#head{position:absolute;top:12px;left:12px;right:12px;z-index:10;display:flex;gap:8px;align-items:center}
+#title{flex:1;background:#fff;border-radius:22px;padding:10px 16px;box-shadow:0 2px 10px rgba(0,0,0,.15);font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#title small{font-weight:500;color:var(--sub);margin-left:6px}
+#all{background:#fff;border:0;border-radius:22px;padding:10px 14px;box-shadow:0 2px 10px rgba(0,0,0,.15);font-size:14px;font-weight:600;color:var(--ink)}
+
+/* 图钉: 圆形店铺照片 + 编号角标 + 下尖角 */
+.mk{position:relative;width:46px;height:56px}
+.mk .ph{width:46px;height:46px;border-radius:50%;border:3px solid #fff;background:#ddd center/cover no-repeat;box-shadow:0 2px 8px rgba(0,0,0,.35)}
+.mk .tail{position:absolute;left:17px;top:41px;width:0;height:0;border:6px solid transparent;border-top:9px solid #fff}
+.mk .no{position:absolute;left:-4px;top:-4px;min-width:22px;height:22px;border-radius:11px;background:var(--brand);color:#fff;font-size:12px;font-weight:800;display:flex;align-items:center;justify-content:center;border:2px solid #fff;padding:0 4px}
+.mk.maybe .no{background:#8b95a1}
+.mk.on .ph{border-color:var(--brand);transform:scale(1.18);transform-origin:50% 100%}
+.mk.on .tail{border-top-color:var(--brand)}
+.st{background:var(--green);color:#fff;font-size:13px;font-weight:700;padding:6px 10px;border-radius:16px;border:2px solid #fff;box-shadow:0 2px 6px rgba(0,0,0,.3);white-space:nowrap}
+
+/* 底部横滑卡片 (네이버/카카오맵 장소 리스트 같은 形态) */
+#cards{position:absolute;left:0;right:0;bottom:14px;z-index:10;display:flex;gap:10px;overflow-x:auto;scroll-snap-type:x mandatory;padding:4px 16px;scrollbar-width:none}
+#cards::-webkit-scrollbar{display:none}
+.cd{flex:0 0 84%;scroll-snap-align:center;background:#fff;border-radius:16px;box-shadow:0 3px 14px rgba(0,0,0,.18);display:flex;gap:12px;padding:12px;border:2px solid transparent}
+.cd.on{border-color:var(--brand)}
+.cd .im{flex:0 0 88px;height:88px;border-radius:12px;background:#eee center/cover no-repeat}
+.cd .tx{flex:1;min-width:0;display:flex;flex-direction:column;gap:4px}
+.cd .nm{font-size:15px;font-weight:700;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.cd .nm i{font-style:normal;color:var(--brand);margin-right:4px}
+.chips{display:flex;gap:4px;flex-wrap:wrap}
+.chip{font-size:11px;font-weight:600;padding:2px 7px;border-radius:6px;background:var(--bg);color:var(--sub)}
+.chip.gift{background:#fff1eb;color:var(--brand)}
+.chip.maybe{background:#f2f4f6;color:#8b95a1}
+.cd .dt{font-size:12px;color:var(--sub);margin-top:auto}
+
+/* 详情: 底部弹层 */
+#mask{position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:20;display:none}
+#sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;background:#fff;border-radius:20px 20px 0 0;max-height:82%;overflow:auto;transform:translateY(100%);transition:transform .25s ease;padding-bottom:env(safe-area-inset-bottom)}
+#sheet.open{transform:none}
+.grab{width:40px;height:5px;border-radius:3px;background:#d1d6db;margin:8px auto 0}
+.gal{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:6px;padding:12px 16px 0;scrollbar-width:none}
+.gal::-webkit-scrollbar{display:none}
+.gal img{flex:0 0 78%;height:240px;object-fit:cover;border-radius:14px;scroll-snap-align:center;background:#eee}
+.gal img:only-child{flex-basis:100%}
+.bd{padding:14px 20px 20px}
+.bd h2{margin:0 0 8px;font-size:20px;line-height:1.35}
+.giftbox{background:#fff1eb;border-radius:12px;padding:12px 14px;margin:12px 0}
+.giftbox b{display:block;color:var(--brand);font-size:13px;margin-bottom:4px}
+.giftbox div{font-size:15px;line-height:1.5}
+.giftbox .orig{color:var(--sub);font-size:13px;margin-top:6px}
+.info{border-top:1px solid var(--line);padding-top:10px}
+.info div{display:flex;gap:10px;padding:6px 0;font-size:14px;line-height:1.45}
+.info span{flex:0 0 42px;color:var(--sub)}
+.btns{display:flex;gap:8px;position:sticky;bottom:0;background:#fff;padding:10px 20px 14px}
+.btns a{flex:1;text-align:center;padding:14px 0;border-radius:12px;text-decoration:none;font-weight:700;font-size:15px}
+.go{background:var(--green);color:#fff}.see{background:var(--bg);color:var(--ink)}
+#err{padding:24px;font-size:15px;display:none}
 </style>
 </head>
 <body>
 <div id="map"></div>
-<div id="head">加载中…</div>
-<div id="card"><a id="x" href="#" onclick="hide();return false">×</a><div id="body"></div></div>
+<div id="head"><div id="title">加载中…</div><button id="all">全部</button></div>
+<div id="cards"></div>
+<div id="mask"></div>
+<div id="sheet"></div>
 <div id="err"></div>
 <script>
-// 数据文件: ?d=<名字> → d/<名字>.json (由 popup-monitor 生成)
+// 数据文件: ?d=<名字> → d/<名字>.json (由 popup-monitor research_1030/build_map.py 生成)
 var KEY = "kf4vf7nyey";
-var Q = new URLSearchParams(location.search), DATA = null, map = null;
-function esc(s){return String(s==null?"":s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]})}
-function hide(){document.getElementById("card").style.display="none"}
-function show(i){
-  var s = DATA.stores[i], h = "<h3>" + (i+1) + ". " + esc(s.name) + "</h3>";
-  [["🏷", s.kind], ["🎁", s.gift], ["👉", s.how], ["📅", s.when], ["📍", s.addr]].forEach(function(r){ if(r[1]) h += '<div class="row">' + r[0] + " " + esc(r[1]) + "</div>" });
-  if (s.orig) h += '<div class="orig">原文：' + esc(s.orig) + "</div>";
+var Q = new URLSearchParams(location.search), DATA = null, map = null, MK = [], CUR = -1, bounds = null, syncing = false;
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function $(id){return document.getElementById(id)}
+function img0(s){return s.imgs && s.imgs[0] ? s.imgs[0] : ""}
+function bg(u){return u ? ' style="background-image:url(&quot;' + esc(u) + '&quot;)"' : ""}
+function mkHtml(s, i, on){
+  return '<div class="mk' + (s.sure ? "" : " maybe") + (on ? " on" : "") + '"><div class="ph"' + bg(img0(s)) + '></div><div class="tail"></div><div class="no">' + (i+1) + "</div></div>";
+}
+function short(w){ // "2026-10-01 ~ 2026-10-31" → "10/1 ~ 10/31"
+  return String(w||"").replace(/\d{4}-0?(\d+)-0?(\d+)/g, "$1/$2");
+}
+
+// 选中第 i 家: 图钉放大 + 卡片高亮 + 地图移过去; fromCards=true 时不再回滚卡片
+function pick(i, fromCards){
+  if (i === CUR) return;
+  if (CUR >= 0) { MK[CUR].setIcon({content: mkHtml(DATA.stores[CUR], CUR, false), anchor: new naver.maps.Point(23, 56)}); MK[CUR].setZIndex(100 - CUR); }
+  CUR = i;
+  var s = DATA.stores[i];
+  MK[i].setIcon({content: mkHtml(s, i, true), anchor: new naver.maps.Point(23, 56)}); MK[i].setZIndex(1000);
+  map.morph(new naver.maps.LatLng(s.lat, s.lng), Math.max(map.getZoom(), 16));  // 店挤在一起时, 选中就拉近看清
+  var cs = $("cards").children;
+  for (var k = 0; k < cs.length; k++) cs[k].classList.toggle("on", k === i);
+  if (!fromCards) { syncing = true; cs[i].scrollIntoView({behavior: "smooth", inline: "center", block: "nearest"}); setTimeout(function(){ syncing = false }, 600); }
+}
+
+function openSheet(i){
+  var s = DATA.stores[i], h = '<div class="grab"></div>';
+  if (s.imgs && s.imgs.length) h += '<div class="gal">' + s.imgs.map(function(u){ return '<img loading="lazy" src="' + esc(u) + '">' }).join("") + "</div>";
+  h += '<div class="bd"><div class="chips">' + (s.kind ? '<span class="chip">' + esc(s.kind) + "</span>" : "") +
+       (s.sure ? "" : '<span class="chip maybe">不一定有</span>') + "</div>";
+  h += "<h2>" + (i+1) + ". " + esc(s.name) + "</h2>";
+  // gift = AI 中文赠品(还没接上时为空) → 先只给「怎么拿」, 不把「怎么拿」冒充成「送什么」
+  h += '<div class="giftbox">' + (s.gift ? "<b>🎁 到了送什么</b><div>" + esc(s.gift) + "</div>" + (s.how ? '<div class="orig">👉 怎么拿：' + esc(s.how) + "</div>" : "")
+                                         : "<b>👉 怎么拿</b><div>" + esc(s.how || "见原文") + "</div>") +
+       (s.orig ? '<div class="orig">原文：' + esc(s.orig) + "</div>" : "") + "</div>";
+  h += '<div class="info">' + (s.when ? "<div><span>日期</span>" + esc(s.when) + "</div>" : "") + (s.addr ? "<div><span>地址</span>" + esc(s.addr) + "</div>" : "") + "</div></div>";
   h += '<div class="btns"><a class="go" href="' + esc(s.nav) + '">🚶 导航去这家</a><a class="see" href="' + esc(s.page) + '">看详情</a></div>';
-  document.getElementById("body").innerHTML = h;
-  document.getElementById("card").style.display = "block";
-  map.panTo(new naver.maps.LatLng(s.lat, s.lng));
+  $("sheet").innerHTML = h; $("sheet").scrollTop = 0;
+  $("mask").style.display = "block";
+  requestAnimationFrame(function(){ $("sheet").classList.add("open") });
 }
+function closeSheet(){ $("sheet").classList.remove("open"); $("mask").style.display = "none" }
+$("mask").onclick = closeSheet;
+
 function draw(){
-  var b = new naver.maps.LatLngBounds();
-  map = new naver.maps.Map("map", {zoom: 15, scaleControl: false, mapDataControl: false, logoControlOptions: {position: naver.maps.Position.BOTTOM_LEFT}});
+  bounds = new naver.maps.LatLngBounds();
+  map = new naver.maps.Map("map", {zoom: 15, scaleControl: false, mapDataControl: false, logoControlOptions: {position: naver.maps.Position.TOP_LEFT}});
+  var path = [];
   if (DATA.start) {
-    var p0 = new naver.maps.LatLng(DATA.start.lat, DATA.start.lng); b.extend(p0);
-    new naver.maps.Marker({position: p0, map: map, icon: {content: '<div class="pin start">🚇 ' + esc(DATA.start.name) + "</div>", anchor: new naver.maps.Point(30, 15)}});
+    var p0 = new naver.maps.LatLng(DATA.start.lat, DATA.start.lng); bounds.extend(p0); path.push(p0);
+    new naver.maps.Marker({position: p0, map: map, zIndex: 50, icon: {content: '<div class="st">🚇 ' + esc(DATA.start.name) + "</div>", anchor: new naver.maps.Point(40, 16)}});
   }
+  var ch = "";
   DATA.stores.forEach(function(s, i){
-    var p = new naver.maps.LatLng(s.lat, s.lng); b.extend(p);
-    var m = new naver.maps.Marker({position: p, map: map, zIndex: 100 - i,
-      icon: {content: '<div class="pin' + (s.sure ? "" : " maybe") + '">' + (i+1) + "</div>", anchor: new naver.maps.Point(15, 15)}});
-    naver.maps.Event.addListener(m, "click", function(){ show(i) });
+    var p = new naver.maps.LatLng(s.lat, s.lng); bounds.extend(p); path.push(p);
+    var m = new naver.maps.Marker({position: p, map: map, zIndex: 100 - i, icon: {content: mkHtml(s, i, false), anchor: new naver.maps.Point(23, 56)}});
+    naver.maps.Event.addListener(m, "click", function(){ pick(i) });
+    MK.push(m);
+    ch += '<div class="cd" data-i="' + i + '"><div class="im"' + bg(img0(s)) + '></div><div class="tx">' +
+          '<div class="nm"><i>' + (i+1) + "</i>" + esc(s.name) + "</div>" +
+          '<div class="chips">' + (s.kind ? '<span class="chip">' + esc(s.kind) + "</span>" : "") +
+          (s.how ? '<span class="chip gift">🎁 ' + esc(s.how) + "</span>" : "") +
+          (s.sure ? "" : '<span class="chip maybe">不一定有</span>') + "</div>" +
+          '<div class="dt">' + esc(short(s.when)) + " · 点开看详情</div></div></div>";
   });
-  map.fitBounds(b, {top: 80, right: 30, bottom: 30, left: 30});
-  naver.maps.Event.addListener(map, "click", hide);
+  // 编号顺序连虚线 = 建议走法 (就近顺序, 不是 Naver 实际步行路径)
+  new naver.maps.Polyline({map: map, path: path, strokeColor: "#ff5a1f", strokeOpacity: .7, strokeWeight: 3, strokeStyle: "shortdash"});
+  $("cards").innerHTML = ch;
+  [].forEach.call($("cards").children, function(c){ c.onclick = function(){ var i = +c.dataset.i; pick(i); openSheet(i) } });
+  // 手指横滑卡片 → 停下后选中居中那张
+  var t = null;
+  $("cards").addEventListener("scroll", function(){
+    if (syncing) return;
+    clearTimeout(t);
+    t = setTimeout(function(){
+      var box = $("cards"), mid = box.scrollLeft + box.clientWidth / 2, best = 0, bd = 1e9;
+      [].forEach.call(box.children, function(c, k){ var d = Math.abs(c.offsetLeft + c.offsetWidth / 2 - mid); if (d < bd) { bd = d; best = k } });
+      pick(best, true);
+    }, 150);
+  });
+  fitAll();
+  $("all").onclick = fitAll;
 }
-function fail(t){var e=document.getElementById("err");e.style.display="block";e.textContent=t;document.getElementById("head").style.display="none"}
+function fitAll(){ map.fitBounds(bounds, {top: 70, right: 40, bottom: 150, left: 40}) }
+
+function fail(t){ var e = $("err"); e.style.display = "block"; e.textContent = t; $("head").style.display = "none" }
 window.navermap_authFailure = function(){ fail("Naver 地图认证失败：Client ID 不对，或这个网址没在 NCP 控制台登记。") };
-fetch("d/" + encodeURIComponent(Q.get("d") || "sample") + ".json").then(function(r){ if(!r.ok) throw 0; return r.json() }).then(function(d){
+fetch("d/" + encodeURIComponent(Q.get("d") || "sample") + ".json").then(function(r){ if (!r.ok) throw 0; return r.json() }).then(function(d){
   DATA = d;
-  document.getElementById("head").innerHTML = "<b>" + esc(d.title) + "</b><br>" + esc(d.sub || "") ;
+  $("title").innerHTML = esc(d.title) + "<small>滑动卡片或点图钉</small>";
   var sc = document.createElement("script");
   sc.src = "https://oapi.map.naver.com/openapi/v3/maps.js?ncpKeyId=" + KEY;
   sc.onload = draw; sc.onerror = function(){ fail("Naver 地图脚本加载失败") };
