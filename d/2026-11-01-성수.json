@@ -1,0 +1,1014 @@
+{
+ "area": "성수",
+ "day": "2026-11-01",
+ "dow": "日",
+ "src": "popply · 2026-11-01 抓取",
+ "stores": [
+  {
+   "id": 6350,
+   "name": "클리시어 팝업 : Cocoa Bunny",
+   "lat": 37.5411288,
+   "lng": 127.0601856,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/cdf4b6aa%2Ce93b%2C4cd1%2Cb8f5%2C5f9b62ed7201",
+    "https://d8nffddmkwqeq.cloudfront.net/store/a6180479%2C0f26%2C4df5%2C911f%2Cf6b7419b3dbd",
+    "https://d8nffddmkwqeq.cloudfront.net/store/42997ee7%2C7193%2C46b9%2Ca172%2C68bdbbcfc976",
+    "https://d8nffddmkwqeq.cloudfront.net/store/ca25634d%2C3a8f%2C4e4b%2C9ba4%2C1d241df8d4d7",
+    "https://d8nffddmkwqeq.cloudfront.net/store/bc50013c%2C5b26%2C41f4%2Cb975%2Ceff4b5c9a9ea",
+    "https://d8nffddmkwqeq.cloudfront.net/store/86672568%2C1b08%2C4970%2Cac6a%2C9cc65b77fb9c"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "Kleesier 26FW Cocoa Bunny系列快闪，时装与美妆新品",
+   "line1": "关注Instagram → 可可",
+   "conds": [
+    "买了才送",
+    "小任务就送",
+    "折扣"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "每日先到先得购物者10人",
+     "get": "当日礼品（11/1为25 Daily tank top和boy shorts）",
+     "cond": "买满才送",
+     "limit": "每日10名先到先得"
+    },
+    {
+     "do": "关注Instagram",
+     "get": "可可",
+     "cond": "小任务就送",
+     "limit": null
+    },
+    {
+     "do": "加Kakao好友",
+     "get": "额外减2000韩元",
+     "cond": "折扣",
+     "limit": null
+    },
+    {
+     "do": "消费满15/25/35万韩元",
+     "get": "透明瓶/软毯/棉布袋",
+     "cond": "买满才送",
+     "limit": "限量"
+    },
+    {
+     "do": "全商品折扣",
+     "get": "最高50%",
+     "cond": "折扣",
+     "limit": null
+    }
+   ],
+   "hl": "Cocoa Bunny系列首发，新口红颜色发布",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-22 ~ 2026-11-01",
+   "addr": "서울 성동구 연무장길 99",
+   "ev": "11.01 · 25 Daily tank top & 25 Daily boy shorts ... 매일 선착순 구매 고객 10분께 구매 금액과 관계없이 기프트 증정",
+   "page": "https://popply.co.kr/popup/6350",
+   "nav": "nmap://route/walk?dlat=37.5411288&dlng=127.0601856&dname=%ED%81%B4%EB%A6%AC%EC%8B%9C%EC%96%B4%20%ED%8C%9D%EC%97%85%20%3A%20Cocoa%20Bunn&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5172,
+   "name": "메디큐브X조앤프렌즈 팝업",
+   "lat": 37.5426396,
+   "lng": 127.0534952,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/e314dc29%2C2f4c%2C4996%2C9850%2C74695a4c1f58",
+    "https://d8nffddmkwqeq.cloudfront.net/store/02a61f69%2Cf935%2C4514%2C89a8%2Cc64feb2f50c9",
+    "https://d8nffddmkwqeq.cloudfront.net/store/29d60fab%2Cddd3%2C42af%2Cbe71%2Ce2d4e3e3dc06"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "Medicube x Joanne Friends成宗快闪，Booster Pro X2新品",
+   "line1": "完成3个盖章任务 → PDRN果冻喷雾60ml",
+   "conds": [
+    "小任务就送",
+    "买了才送"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "完成3个盖章任务",
+     "get": "PDRN果冻喷雾60ml",
+     "cond": "小任务就送",
+     "limit": null
+    },
+    {
+     "do": "加Kakao Plus好友",
+     "get": "粉色肽安瓶10ml",
+     "cond": "小任务就送",
+     "limit": null
+    },
+    {
+     "do": "参加照片评价活动",
+     "get": "红色琥珀酰护垫10片",
+     "cond": "小任务就送",
+     "limit": null
+    },
+    {
+     "do": "先到50名购买者玩弹珠机",
+     "get": "设备购买者可领产品",
+     "cond": "买满才送",
+     "limit": "先到50名"
+    },
+    {
+     "do": "消费满5万韩元",
+     "get": "拍大头贴并参加硬币活动",
+     "cond": "买满才送",
+     "limit": null
+    }
+   ],
+   "hl": "盖章任务、弹珠机、大头贴",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-06-08 ~ 2026-12-31",
+   "addr": "서울 성동구 성수이로7길 40",
+   "ev": "스탬프 미션 3가지를 성공하면 무려 PDRN 젤리미스트 60ml 증정",
+   "page": "https://popply.co.kr/popup/5172",
+   "nav": "nmap://route/walk?dlat=37.5426396&dlng=127.0534952&dname=%EB%A9%94%EB%94%94%ED%81%90%EB%B8%8CX%EC%A1%B0%EC%95%A4%ED%94%84%EB%A0%8C%EC%A6%88%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6276,
+   "name": "픽스피자 팝업",
+   "lat": 37.5442564,
+   "lng": 127.0503748,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/86aed499%2C72c0%2C4ed4%2Ca346%2Ca8e81889654a",
+    "https://d8nffddmkwqeq.cloudfront.net/store/6ee6f5db%2C262e%2C4078%2Ca384%2C349842726990",
+    "https://d8nffddmkwqeq.cloudfront.net/store/32cc442a%2C82b6%2C44e9%2Cbd03%2C487b2b3483ae",
+    "https://d8nffddmkwqeq.cloudfront.net/store/411bb4f7%2C7271%2C4fee%2Ca924%2C0391a6682c0f",
+    "https://d8nffddmkwqeq.cloudfront.net/store/567b8896%2Cec12%2C49d7%2Cb27b%2Ccd76bc60fc94",
+    "https://d8nffddmkwqeq.cloudfront.net/store/1d9eeede%2C7bc6%2C4aaa%2C9f97%2Cb5df47a95281"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "PICK'S PIZZA成宗快闪，1800韩元起的冷冻披萨",
+   "line1": "关注+发Story认证 → 礼物(没写是什么)",
+   "conds": [
+    "小任务就送",
+    "抽奖",
+    "买了才送"
+   ],
+   "hours": "12:00~19:00",
+   "acts": [
+    {
+     "do": "关注+发Story认证",
+     "get": "周边（未写具体）",
+     "cond": "小任务就送",
+     "limit": null
+    },
+    {
+     "do": "发Feed活动",
+     "get": "价值约10万韩元美妆品",
+     "cond": "抽奖",
+     "limit": null
+    },
+    {
+     "do": "每消费1万韩元1次幸运抽奖",
+     "get": "键帽钥匙扣、照片卡冲印券、披萨券、Olive Young化妆品",
+     "cond": "买满才送",
+     "limit": null
+    }
+   ],
+   "hl": "3分钟现烤披萨，多种口味",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-22 ~ 2026-11-22",
+   "addr": "서울 성동구 연무장길 5-9",
+   "ev": "10,000원 구매마다 럭키드로우 1회! ... 키캡키링부터 포토카드 인화권, 피자 구매권, 올리브영 인기 화장품",
+   "page": "https://popply.co.kr/popup/6276",
+   "nav": "nmap://route/walk?dlat=37.5442564&dlng=127.0503748&dname=%ED%94%BD%EC%8A%A4%ED%94%BC%EC%9E%90%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6463,
+   "name": "K-FOOD FESTA 팝업",
+   "lat": 37.5448506,
+   "lng": 127.0555746,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/c7dcd036%2C6321%2C4241%2C918b%2Cd52ea58b0ffc",
+    "https://d8nffddmkwqeq.cloudfront.net/store/4922cdd1%2C2057%2C4afb%2C9e4c%2C3242073c95d2",
+    "https://d8nffddmkwqeq.cloudfront.net/store/83bd028c%2C4cc3%2C4379%2C9aea%2C0bf60c9f4691",
+    "https://d8nffddmkwqeq.cloudfront.net/store/ba11471f%2Cf03a%2C4ba9%2Cb941%2C2c228acf07e6",
+    "https://d8nffddmkwqeq.cloudfront.net/store/6575371b%2C2ece%2C467d%2C9f9b%2C4138bc1c52eb",
+    "https://d8nffddmkwqeq.cloudfront.net/store/174780fe%2C3a82%2C4ad6%2Cbfe0%2C779343266967"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "食品周韩国K-FOOD FESTA成水站快闪活动",
+   "line1": "在拍照区拍照，带必填标签公开发帖并现场认证 → 礼物(没写是什么)",
+   "conds": [
+    "小任务就送",
+    "抽奖"
+   ],
+   "hours": "10:00~18:00",
+   "acts": [
+    {
+     "do": "在拍照区拍照，带必填标签公开发帖并现场认证",
+     "get": "未写具体(奖品)",
+     "cond": "小任务就送",
+     "limit": "每日先到先得100名；每人每日1次"
+    },
+    {
+     "do": "玩大转盘",
+     "get": "Olive Young/星巴克礼品卡、韩国酒大庆典折扣券、食品周韩国入场券(无空奖)",
+     "cond": "抽奖",
+     "limit": "每人每日1次，奖品送完提前结束"
+    }
+   ],
+   "hl": "大转盘无空奖；拍照区",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-28 ~ 2026-11-01",
+   "addr": "서울 성동구 아차산로 105",
+   "ev": "포토존 사진을 필수 해시태그와 함께 전체공개로 올리고 현장 인증하면 경품 증정! (매일 선착순 100명)",
+   "page": "https://popply.co.kr/popup/6463",
+   "nav": "nmap://route/walk?dlat=37.5448506&dlng=127.0555746&dname=K-FOOD%20FESTA%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6453,
+   "name": "스낵이 제미나이 캠퍼스",
+   "lat": 37.5439598,
+   "lng": 127.0551062,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/9ddd13df%2C8bd5%2C4e34%2C8924%2Cb1e737c2db09",
+    "https://d8nffddmkwqeq.cloudfront.net/store/0813d006%2C1fd0%2C4913%2Ca601%2Cbccbaf23967f",
+    "https://d8nffddmkwqeq.cloudfront.net/store/0959bb3d%2Cf500%2C4bb2%2Caaba%2Cbf9c5b58e4a9",
+    "https://d8nffddmkwqeq.cloudfront.net/store/5f530ece%2Cff18%2C43fd%2Cbeed%2C43ef81f7c633",
+    "https://d8nffddmkwqeq.cloudfront.net/store/f8b6dcde%2Cfba8%2C40fb%2Cb4dc%2C29e1c90e08e6",
+    "https://d8nffddmkwqeq.cloudfront.net/store/bb8b13e3%2C42fd%2C4051%2Cb29a%2C24e11d55c536"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "Snack与Google Gemini联名的大学校园主题体验",
+   "line1": "NFC入学、领电子学生证、做任务集学分 → 礼物(没写是什么)",
+   "conds": [
+    "免费体验"
+   ],
+   "hours": "10:00~22:00",
+   "acts": [
+    {
+     "do": "NFC入学、领电子学生证、做任务集学分",
+     "get": "毕业礼物（未写具体）",
+     "cond": "免费体验",
+     "limit": null
+    },
+    {
+     "do": "限定周边销售",
+     "get": "收益捐赠低收入大学生学费",
+     "cond": "免费体验",
+     "limit": null
+    }
+   ],
+   "hl": "校园主题体验，选修课需预约",
+   "reserve": "可预约也可现场",
+   "only": null,
+   "when": "2026-10-30 ~ 2026-11-01",
+   "addr": "서울 성동구 연무장7길 16",
+   "ev": "학점을 채워 졸업하면 졸업 선물까지 받아 갈 수 있어요",
+   "page": "https://popply.co.kr/popup/6453",
+   "nav": "nmap://route/walk?dlat=37.5439598&dlng=127.0551062&dname=%EC%8A%A4%EB%82%B5%EC%9D%B4%20%EC%A0%9C%EB%AF%B8%EB%82%98%EC%9D%B4%20%EC%BA%A0%ED%8D%BC%EC%8A%A4&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6389,
+   "name": "봉주호두 X 이봉주 팝업 : 성수로 달려온 봉주",
+   "lat": 37.5435085,
+   "lng": 127.0536806,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/14f3a998%2C8a17%2C4013%2C828b%2Cfd78b95e571e",
+    "https://d8nffddmkwqeq.cloudfront.net/store/9d7772c7%2C208a%2C484a%2Cbcb1%2C9212261c1200",
+    "https://d8nffddmkwqeq.cloudfront.net/store/87d8feb2%2C5741%2C413f%2C8428%2Ca6c52aa4cab6",
+    "https://d8nffddmkwqeq.cloudfront.net/store/a8ea1879%2C9ef6%2C464f%2C9a46%2Ce4533eae17db"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "马拉松传奇李凤柱×봉주호두核桃零食展览+快闪(成水)",
+   "line1": "现场试吃봉주호두 → 免费试吃",
+   "conds": [
+    "免费体验",
+    "抽奖"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "现场试吃봉주호두",
+     "get": "免费试吃",
+     "cond": "免费体验",
+     "limit": null
+    },
+    {
+     "do": "现场幸运抽奖",
+     "get": "未写具体",
+     "cond": "抽奖",
+     "limit": null
+    }
+   ],
+   "hl": "展出李凤柱波士顿马拉松冠军奖牌、队服、跑鞋等个人藏品；混合骑行；最后一天11/1 15:00签名会",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-30 ~ 2026-11-01",
+   "addr": "서울 성동구 연무장길 37-21",
+   "ev": "On-site Activities : Free Tasting, Lucky Draw, Mixing Bike Ride / 봉주호두 시식, 럭키드로우, 음료 믹싱 라이딩 등",
+   "page": "https://popply.co.kr/popup/6389",
+   "nav": "nmap://route/walk?dlat=37.5435085&dlng=127.0536806&dname=%EB%B4%89%EC%A3%BC%ED%98%B8%EB%91%90%20X%20%EC%9D%B4%EB%B4%89%EC%A3%BC%20%ED%8C%9D%EC%97%85%20%3A%20%EC%84%B1%EC%88%98%EB%A1%9C%20&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6451,
+   "name": "롱테이크 팝업",
+   "lat": 37.5450426,
+   "lng": 127.0558154,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/12731ec8%2C087d%2C490c%2C91bd%2C6330ce856c01",
+    "https://d8nffddmkwqeq.cloudfront.net/store/5732250f%2Ce17e%2C4479%2C95ba%2C11f91a025b3d",
+    "https://d8nffddmkwqeq.cloudfront.net/store/10eef08e%2C9087%2C40f0%2Cb268%2Ca80ee41a0ce3"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "LONGTAKE香氛品牌在Olive Young圣水Beauty Mansion的快闪",
+   "line1": "参加关注活动(20时前) → 礼物(没写是什么)",
+   "conds": [
+    "小任务就送"
+   ],
+   "hours": "10:00~22:00",
+   "acts": [
+    {
+     "do": "参加关注活动(20时前)",
+     "get": "未写具体",
+     "cond": "小任务就送",
+     "limit": null
+    }
+   ],
+   "hl": "香氛填满的空间",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-01 ~ 2026-12-31",
+   "addr": "서울 성동구 아차산로 103",
+   "ev": "*팔로우 이벤트는 오후 8시까지 참여 가능합니다.",
+   "page": "https://popply.co.kr/popup/6451",
+   "nav": "nmap://route/walk?dlat=37.5450426&dlng=127.0558154&dname=%EB%A1%B1%ED%85%8C%EC%9D%B4%ED%81%AC%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6409,
+   "name": "시에 X 에세이즈 팝업",
+   "lat": 37.543115,
+   "lng": 127.0534919,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/5c0455a4%2Cc184%2C4ff6%2C9814%2C83129ddb1c3b",
+    "https://d8nffddmkwqeq.cloudfront.net/store/77f53583%2Cfaa6%2C4414%2Ca1e7%2C5b7aa44a0a16",
+    "https://d8nffddmkwqeq.cloudfront.net/store/ff972e01%2C264f%2C4ea2%2Ca9b7%2Cfac984c68e05",
+    "https://d8nffddmkwqeq.cloudfront.net/store/434b840c%2C2354%2C46f7%2Ca5cd%2C2b59643e8f99",
+    "https://d8nffddmkwqeq.cloudfront.net/store/8d8b4360%2C5edf%2C49e2%2C94e8%2C58406ee5ebb9",
+    "https://d8nffddmkwqeq.cloudfront.net/store/4d295df9%2C0013%2C4ce5%2Cacda%2C2e4c0a5f682f"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "SIE x ESSAIS联名快闪，新品外套和鞋",
+   "line1": "加Kakao Plus好友并在照相亭拍照，照片出现Lucky Frame → 店内入库商品任选一件",
+   "conds": [
+    "抽奖"
+   ],
+   "hours": "12:00~20:00",
+   "acts": [
+    {
+     "do": "加Kakao Plus好友并在照相亭拍照，照片出现Lucky Frame",
+     "get": "店内入库商品任选一件",
+     "cond": "抽奖",
+     "limit": null
+    }
+   ],
+   "hl": "照相亭拍照，有机会抽中任选一件商品",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-27 ~ 2026-11-10",
+   "addr": "서울 성동구 연무장길 35",
+   "ev": "카카오톡 플러스친구 추가하고, 포토부스에서 ... 〈럭키 프레임〉이 나오는 고객님께 ... 원하시는 한 가지를 선물로",
+   "page": "https://popply.co.kr/popup/6409",
+   "nav": "nmap://route/walk?dlat=37.543115&dlng=127.0534919&dname=%EC%8B%9C%EC%97%90%20X%20%EC%97%90%EC%84%B8%EC%9D%B4%EC%A6%88%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5962,
+   "name": "탐정 스누피의 잃어버린 단서 in 유니세프 정원",
+   "lat": 37.5430697,
+   "lng": 127.0417999,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/912ec4bf%2C5c08%2C44d0%2Ca971%2Cf98eb8ca43e4",
+    "https://d8nffddmkwqeq.cloudfront.net/store/07ebc031%2C4c23%2C4256%2C996c%2Cc168b42d2e1a",
+    "https://d8nffddmkwqeq.cloudfront.net/store/20c2ca4c%2Cb50c%2C4fe1%2Cbc83%2Ce94c046683cf",
+    "https://d8nffddmkwqeq.cloudfront.net/store/ac60fe8b%2C36b8%2C46e9%2Cafcb%2C3f3a37df552a",
+    "https://d8nffddmkwqeq.cloudfront.net/store/a9647793%2C7fad%2C405c%2Cbdc5%2C40534169893b"
+   ],
+   "tags": [
+    "gift"
+   ],
+   "what": "首尔林UNICEF花园的侦探史努比任务联名花园",
+   "line1": "与侦探史努比一起解决事件 → 环保袋、贴纸包等",
+   "conds": [
+    "小任务就送"
+   ],
+   "hours": "12:00~19:00",
+   "acts": [
+    {
+     "do": "与侦探史努比一起解决事件",
+     "get": "环保袋、贴纸包等",
+     "cond": "小任务就送",
+     "limit": "限量先到先得"
+    }
+   ],
+   "hl": "寻找线索做任务了解儿童权利，沿首尔林散步",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-09-10 ~ 2026-11-16",
+   "addr": "서울 성동구 뚝섬로 273",
+   "ev": "탐정 스누피와 함께 사건 해결 시 특별 선물 증정 *에코백, 스티커팩 등(한정 수량/선착순)",
+   "page": "https://popply.co.kr/popup/5962",
+   "nav": "nmap://route/walk?dlat=37.5430697&dlng=127.0417999&dname=%ED%83%90%EC%A0%95%20%EC%8A%A4%EB%88%84%ED%94%BC%EC%9D%98%20%EC%9E%83%EC%96%B4%EB%B2%84%EB%A6%B0%20%EB%8B%A8%EC%84%9C%20in%20%EC%9C%A0&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6100,
+   "name": "SK텔레콤 X 랜덤 다이버시티 전시 : Emotion Lab",
+   "lat": 37.5449383,
+   "lng": 127.0505364,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/f3e90420%2C1934%2C4ef8%2Ca582%2Cdd70a97d5a8d",
+    "https://d8nffddmkwqeq.cloudfront.net/store/ce3d8932%2C6ebc%2C4368%2Cb40e%2C603d99b93ba0",
+    "https://d8nffddmkwqeq.cloudfront.net/store/e0cb07b2%2Ce68f%2C4692%2C800b%2C661d28201f5e",
+    "https://d8nffddmkwqeq.cloudfront.net/store/c1946b37%2C3124%2C4ccd%2C9de7%2Cd443dc9b381f",
+    "https://d8nffddmkwqeq.cloudfront.net/store/25b38ee1%2C5e8d%2C440f%2Ca4cf%2C6dd24aece1d7",
+    "https://d8nffddmkwqeq.cloudfront.net/store/71659b50%2C49ed%2C4386%2C9568%2C28ef7dcbc059"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "SKT×Random Diversity脑电波感情实验展(T Factory成水)",
+   "line1": "1楼Scent of Emotion：戴脑电波VR设备闻11种香料，把心意做成独一无二的香味，并写信 → 亲手写的信和完成的专属香味",
+   "conds": [
+    "免费体验",
+    "付费体验",
+    "折扣"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "1楼Scent of Emotion：戴脑电波VR设备闻11种香料，把心意做成独一无二的香味，并写信",
+     "get": "亲手写的信和完成的专属香味",
+     "cond": "免费体验",
+     "limit": "每日1次"
+    },
+    {
+     "do": "地下1楼Color of Emotion：用脑电波提取当下情绪的颜色",
+     "get": "未写具体",
+     "cond": "付费体验",
+     "limit": "需通过T Factory Linktree预约"
+    },
+    {
+     "do": "SKT客户参加Color of Emotion",
+     "get": "20%折扣",
+     "cond": "折扣",
+     "limit": null
+    }
+   ],
+   "hl": "脑电波测量+VR闻香做专属香水；脑电波提取情绪色彩",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-09-19 ~ 2026-11-15",
+   "addr": "서울 성동구 연무장1길 7-1",
+   "ev": "1F | Scent of Emotion (무료, 1일 1회) 마음을 하나의 향으로 만들어 전달하는 실험실",
+   "page": "https://popply.co.kr/popup/6100",
+   "nav": "nmap://route/walk?dlat=37.5449383&dlng=127.0505364&dname=SK%ED%85%94%EB%A0%88%EC%BD%A4%20X%20%EB%9E%9C%EB%8D%A4%20%EB%8B%A4%EC%9D%B4%EB%B2%84%EC%8B%9C%ED%8B%B0%20%EC%A0%84%EC%8B%9C%20&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5790,
+   "name": "토리든 팝업",
+   "lat": 37.5418318,
+   "lng": 127.0553011,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/afbbc31a%2C8890%2C43bd%2C8328%2C2ae924333705",
+    "https://d8nffddmkwqeq.cloudfront.net/store/6bea5035%2Cf25c%2C40a7%2C86bb%2C9af15a6f61cf",
+    "https://d8nffddmkwqeq.cloudfront.net/store/2ecb2ef0%2C3ae4%2C4cbe%2C9311%2C13213b064f98",
+    "https://d8nffddmkwqeq.cloudfront.net/store/b19987cb%2Cae05%2C41a2%2Ca4d7%2Cb04897f15485",
+    "https://d8nffddmkwqeq.cloudfront.net/store/aa675544%2Ce92a%2C4020%2Ca5d3%2C08aee514797f",
+    "https://d8nffddmkwqeq.cloudfront.net/store/2e4debff%2C0a51%2C4e17%2Cbb1d%2C3a8a36390e1c"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "Torriden Connect Seongsu：吸收设计主题护肤快闪",
+   "line1": "玩吸收球游戏 → 礼物(没写是什么)",
+   "conds": [
+    "免费体验"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "玩吸收球游戏",
+     "get": "未写具体",
+     "cond": "免费体验",
+     "limit": null
+    },
+    {
+     "do": "皮肤诊断Kiosk",
+     "get": "未写具体",
+     "cond": "免费体验",
+     "limit": null
+    }
+   ],
+   "hl": "吸收瀑布拍照点、吸收球游戏、皮肤诊断Kiosk、CORTIS拍照点",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-07-15 ~ 2026-12-31",
+   "addr": "서울 성동구 성수이로7가길 17",
+   "ev": "흡수 폭포 포토존부터 몰입감 제대로인 흡수볼 게임, 피부 컨디션 체크가 가능한 피부진단 키오스크",
+   "page": "https://popply.co.kr/popup/5790",
+   "nav": "nmap://route/walk?dlat=37.5418318&dlng=127.0553011&dname=%ED%86%A0%EB%A6%AC%EB%93%A0%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6433,
+   "name": "코치 팝업 : LIVE YOUR STORY",
+   "lat": 37.5465048,
+   "lng": 127.043467,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/b369bc50%2Cf411%2C4921%2C9d5d%2C87fe3b9c61c2"
+   ],
+   "tags": [
+    "fun",
+    "brand"
+   ],
+   "what": "Coach秋季Live Your Story活动快闪(Musinsa Space首尔林)",
+   "line1": "收听活动原声的聆听亭、故事墙留言、明信片装饰站 → 礼物(没写是什么)",
+   "conds": [
+    "免费体验"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "收听活动原声的聆听亭、故事墙留言、明信片装饰站",
+     "get": "未写具体",
+     "cond": "免费体验",
+     "limit": null
+    }
+   ],
+   "hl": "听音乐的聆听亭、故事墙、明信片站；5款大使特别版Tabby包",
+   "reserve": "必须预约",
+   "only": null,
+   "when": "2026-10-19 ~ 2026-11-07",
+   "addr": "서울 성동구 서울숲2길 43",
+   "ev": "캠페인 사운드트랙을 감상할 수 있는 리스닝 부스부터 각자의 메시지로 하나의 이야기를 완성하는 스토리 월",
+   "page": "https://popply.co.kr/popup/6433",
+   "nav": "nmap://route/walk?dlat=37.5465048&dlng=127.043467&dname=%EC%BD%94%EC%B9%98%20%ED%8C%9D%EC%97%85%20%3A%20LIVE%20YOUR%20ST&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6384,
+   "name": "마비스 팝업",
+   "lat": 37.5439085,
+   "lng": 127.0572663,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/fc380414%2C6f10%2C4258%2Cb399%2Cb05cb2a5690c"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "意大利牙膏Marvis在圣水Tiltable的快闪，五颗星感官之旅",
+   "line1": "关注官方账号、点赞并分享快拍、评论@朋友(10/16-10/23) → Marvis White Mint 25ml",
+   "conds": [
+    "线上活动"
+   ],
+   "hours": "11:00~19:00",
+   "acts": [
+    {
+     "do": "关注官方账号、点赞并分享快拍、评论@朋友(10/16-10/23)",
+     "get": "Marvis White Mint 25ml",
+     "cond": "线上活动",
+     "limit": "共25名"
+    }
+   ],
+   "hl": "寻找五颗星的圣水五感旅程",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-28 ~ 2026-11-01",
+   "addr": "서울 성동구 아차산로 120",
+   "ev": "이벤트 경품 : 마비스 화이트민트 25ml 총 25명",
+   "page": "https://popply.co.kr/popup/6384",
+   "nav": "nmap://route/walk?dlat=37.5439085&dlng=127.0572663&dname=%EB%A7%88%EB%B9%84%EC%8A%A4%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6378,
+   "name": "2026 미리위크 팝업 - 방탈출 게임, 기획전시",
+   "lat": 37.5429356,
+   "lng": 127.0578871,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/967725e9%2Cfcaa%2C4a7d%2Cb062%2Ca1689d9f7bec",
+    "https://d8nffddmkwqeq.cloudfront.net/store/0694aaeb%2Cdf44%2C43a2%2Cb7fd%2C7e0ec1eb9b05",
+    "https://d8nffddmkwqeq.cloudfront.net/store/7ee324d4%2C6f57%2C4075%2Cbd5b%2Ca4db12a21e6c",
+    "https://d8nffddmkwqeq.cloudfront.net/store/6e6afd5f%2Cdd6c%2C4f5a%2Cb37e%2C705bf8011110",
+    "https://d8nffddmkwqeq.cloudfront.net/store/b2715a4b%2Cf0df%2C4245%2C9e0a%2C7e0b5514f486",
+    "https://d8nffddmkwqeq.cloudfront.net/store/779c6489%2Cf1cc%2C4028%2Cae6e%2C14896aa12924"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "媒体素养周미리위크快闪：策划展览和密室逃脱(成水)",
+   "line1": "参观策划展《아니근데진짜만약에展》 → 无",
+   "conds": [
+    "免费体验"
+   ],
+   "hours": "09:50~21:00",
+   "acts": [
+    {
+     "do": "参观策划展《아니근데진짜만약에展》",
+     "get": "无",
+     "cond": "免费体验",
+     "limit": null
+    }
+   ],
+   "hl": "密室逃脱游戏《점프x컷》2.0(需提前预约，仅12岁以上)，展览免预约",
+   "reserve": "可预约也可现场",
+   "only": null,
+   "when": "2026-10-24 ~ 2026-11-08",
+   "addr": "서울 성동구 성수이로18길 5",
+   "ev": "※ 기획전시는 사전예약 없이 무료로 입장 가능합니다. ※ 방탈출 게임은 사전 예약제로 운영됩니다. (만 12세 이상 참여 가능)",
+   "page": "https://popply.co.kr/popup/6378",
+   "nav": "nmap://route/walk?dlat=37.5429356&dlng=127.0578871&dname=2026%20%EB%AF%B8%EB%A6%AC%EC%9C%84%ED%81%AC%20%ED%8C%9D%EC%97%85%20-%20%EB%B0%A9%ED%83%88%EC%B6%9C%20%EA%B2%8C&appname=com.jaepax.popup"
+  },
+  {
+   "id": 4965,
+   "name": "메르세데스-벤츠 스튜디오 서울 팝업",
+   "lat": 37.5420593,
+   "lng": 127.0576533,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/5ce2053f%2Ccaa7%2C45df%2Ca51f%2C5c2fd8d9b890"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "梅赛德斯-奔驰Studio Seoul展览",
+   "line1": "参观品牌展览 → 礼物(没写是什么)",
+   "conds": [
+    "免费体验"
+   ],
+   "hours": "11:00~20:00",
+   "acts": [
+    {
+     "do": "参观品牌展览",
+     "get": "未写具体",
+     "cond": "免费体验",
+     "limit": null
+    }
+   ],
+   "hl": "四个主题的品牌历史与数字体验展",
+   "reserve": "必须预约",
+   "only": null,
+   "when": "2026-05-19 ~ 2027-02-14",
+   "addr": "서울 성동구 연무장길 73",
+   "ev": "The Origin, The Icon, The Best or Nothing, The Senses 네 가지 키워드를 중심으로 구성된 ... 전시 공간",
+   "page": "https://popply.co.kr/popup/4965",
+   "nav": "nmap://route/walk?dlat=37.5420593&dlng=127.0576533&dname=%EB%A9%94%EB%A5%B4%EC%84%B8%EB%8D%B0%EC%8A%A4-%EB%B2%A4%EC%B8%A0%20%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4%20%EC%84%9C%EC%9A%B8%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6454,
+   "name": "라이엇게임즈 뮤직 & 월즈26 팝업",
+   "lat": 37.544177,
+   "lng": 127.0544868,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/7f9015b9%2Ce172%2C4e79%2C96d7%2C42b975cbbcbc"
+   ],
+   "tags": [
+    "fun",
+    "brand"
+   ],
+   "what": "英雄联盟音乐与Worlds2026快闪(Olive Young成水)",
+   "line1": "成水Olive Young限定的特别奖励(未写具体)；无需预约，现场排队入场",
+   "conds": [],
+   "hours": "11:00~20:00",
+   "acts": [],
+   "hl": "成水Olive Young限定的特别奖励(未写具体)；无需预约，现场排队入场",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-29 ~ 2026-11-08",
+   "addr": "서울 성동구 연무장7길 13",
+   "ev": null,
+   "page": "https://popply.co.kr/popup/6454",
+   "nav": "nmap://route/walk?dlat=37.544177&dlng=127.0544868&dname=%EB%9D%BC%EC%9D%B4%EC%97%87%EA%B2%8C%EC%9E%84%EC%A6%88%20%EB%AE%A4%EC%A7%81%20%26%20%EC%9B%94%EC%A6%8826%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6404,
+   "name": "SKT 런메이트 캠프",
+   "lat": 37.5449383,
+   "lng": 127.0505364,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/7003f9a4%2C47bf%2C47f3%2C86ce%2C86e9e49d099c"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "SKT成水T Factory跑步风格分析体验快闪",
+   "line1": "个人跑步风格高级分析，确认身体状态并找到适合自己的配速",
+   "conds": [],
+   "hours": "11:00~20:00",
+   "acts": [],
+   "hl": "个人跑步风格高级分析，确认身体状态并找到适合自己的配速",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-20 ~ 2026-11-01",
+   "addr": "서울 성동구 연무장1길 7-1",
+   "ev": null,
+   "page": "https://popply.co.kr/popup/6404",
+   "nav": "nmap://route/walk?dlat=37.5449383&dlng=127.0505364&dname=SKT%20%EB%9F%B0%EB%A9%94%EC%9D%B4%ED%8A%B8%20%EC%BA%A0%ED%94%84&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6252,
+   "name": "롬앤 팝업 : 10주년 생일파티",
+   "lat": 37.5412902,
+   "lng": 127.0588878,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/86801977%2C1599%2C49b8%2C9f0c%2C26e158961e75",
+    "https://d8nffddmkwqeq.cloudfront.net/store/f585fd3e%2Cb186%2C435a%2C9b8a%2C0026884d6a68",
+    "https://d8nffddmkwqeq.cloudfront.net/store/579f298b%2Cd566%2C41ae%2Cb0a9%2Cf09157fe2af4"
+   ],
+   "tags": [
+    "fun"
+   ],
+   "what": "rom&nd 10周年生日派对主题快闪，2016复古风",
+   "line1": "2016年复古造型主题，蛋糕拍照点",
+   "conds": [],
+   "hours": "10:00~22:00",
+   "acts": [],
+   "hl": "2016年复古造型主题，蛋糕拍照点",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-10 ~ 2026-11-10",
+   "addr": "서울 성동구 연무장길 88",
+   "ev": null,
+   "page": "https://popply.co.kr/popup/6252",
+   "nav": "nmap://route/walk?dlat=37.5412902&dlng=127.0588878&dname=%EB%A1%AC%EC%95%A4%20%ED%8C%9D%EC%97%85%20%3A%2010%EC%A3%BC%EB%85%84%20%EC%83%9D%EC%9D%BC%ED%8C%8C%ED%8B%B0&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5793,
+   "name": "드래곤볼 히어로즈 라이즈 서울",
+   "lat": 37.53884,
+   "lng": 127.0556486,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/34143966%2Ce4cb%2C478c%2C8f6f%2C6382df91e978"
+   ],
+   "tags": [
+    "paid"
+   ],
+   "what": "龙珠雕像与名场景再现展，在Stage X圣水",
+   "line1": "参加展览互动内容 → 礼物(没写是什么)",
+   "conds": [
+    "付费体验"
+   ],
+   "hours": "11:00~21:00",
+   "acts": [
+    {
+     "do": "参加展览互动内容",
+     "get": "未写具体",
+     "cond": "付费体验",
+     "limit": null
+    }
+   ],
+   "hl": "雕像展示、名场景复原空间、互动内容",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-08-22 ~ 2026-11-15",
+   "addr": "서울 성동구 뚝섬로 403",
+   "ev": null,
+   "page": "https://popply.co.kr/popup/5793",
+   "nav": "nmap://route/walk?dlat=37.53884&dlng=127.0556486&dname=%EB%93%9C%EB%9E%98%EA%B3%A4%EB%B3%BC%20%ED%9E%88%EC%96%B4%EB%A1%9C%EC%A6%88%20%EB%9D%BC%EC%9D%B4%EC%A6%88%20%EC%84%9C%EC%9A%B8&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5949,
+   "name": "짱구는 못말려 전시 : 시공간 대모험",
+   "lat": 37.5444463,
+   "lng": 127.0520483,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/8252c35b%2C7ae0%2C4e65%2C9703%2C1383e25e3018"
+   ],
+   "tags": [
+    "paid"
+   ],
+   "what": "《蜡笔小新》时空大冒险互动体验展(国内首次，成水)",
+   "line1": "互动体验型展览，蜡笔小新时空冒险题材",
+   "conds": [],
+   "hours": "10:00~20:00",
+   "acts": [],
+   "hl": "互动体验型展览，蜡笔小新时空冒险题材",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-17 ~ 2027-01-24",
+   "addr": "서울 성동구 연무장5길 9-29",
+   "ev": null,
+   "page": "https://popply.co.kr/popup/5949",
+   "nav": "nmap://route/walk?dlat=37.5444463&dlng=127.0520483&dname=%EC%A7%B1%EA%B5%AC%EB%8A%94%20%EB%AA%BB%EB%A7%90%EB%A0%A4%20%EC%A0%84%EC%8B%9C%20%3A%20%EC%8B%9C%EA%B3%B5%EA%B0%84%20%EB%8C%80%EB%AA%A8%ED%97%98&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6377,
+   "name": "빵력장터 팝업",
+   "lat": 37.5462387,
+   "lng": 127.0608769,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/a890741b%2Ce249%2C48e2%2C9aaf%2C4c076cfd0b96",
+    "https://d8nffddmkwqeq.cloudfront.net/store/17e801bb%2Ce0fa%2C412a%2C9fe5%2C7dffa6ac4272",
+    "https://d8nffddmkwqeq.cloudfront.net/store/f948156f%2C1145%2C4cc9%2C9649%2C714f2ea9e961",
+    "https://d8nffddmkwqeq.cloudfront.net/store/92c64aa8%2Ce74b%2C4af8%2C89af%2Ca4a59f475532",
+    "https://d8nffddmkwqeq.cloudfront.net/store/c894acff%2C9a36%2C496b%2C8dbf%2Cff6c925bda51",
+    "https://d8nffddmkwqeq.cloudfront.net/store/60f559f1%2Cd2cd%2C4f9f%2C82ce%2C9aca2f372f5e"
+   ],
+   "tags": [
+    "food"
+   ],
+   "what": "面包市集x Toss，聚集面包店，Seongsu 3天",
+   "line1": "用Toss Face Pay付款，参加Toss活动 → 礼物(没写是什么)",
+   "conds": [
+    "免费体验"
+   ],
+   "hours": "11:00~18:00",
+   "acts": [
+    {
+     "do": "用Toss Face Pay付款，参加Toss活动",
+     "get": "Toss面包包、周边（未写具体）",
+     "cond": "免费体验",
+     "limit": null
+    },
+    {
+     "do": "照相亭",
+     "get": "未写具体",
+     "cond": "免费体验",
+     "limit": null
+    }
+   ],
+   "hl": "400坪面包市集，Toss面包包、周边、照相亭",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-30 ~ 2026-11-01",
+   "addr": "서울 성동구 아차산로11가길 6",
+   "ev": "빵미새를 위한 토스 빵 가방과 굿즈, 포토부스 등 다양한 이벤트",
+   "page": "https://popply.co.kr/popup/6377",
+   "nav": "nmap://route/walk?dlat=37.5462387&dlng=127.0608769&dname=%EB%B9%B5%EB%A0%A5%EC%9E%A5%ED%84%B0%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5243,
+   "name": "신라면분식 더 팩토리 팝업",
+   "lat": 37.5424984,
+   "lng": 127.0543264,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/2c923895%2Ca8ac%2C4228%2Cb846%2Cea19aad9f929"
+   ],
+   "tags": [
+    "food"
+   ],
+   "what": "辛拉面40周年餐厅，可DIY拉面与品尝海外泡面",
+   "line1": "自选面、调料包、配料做DIY拉面 → 自己做的拉面",
+   "conds": [
+    "付费体验"
+   ],
+   "hours": "09:00~18:00",
+   "acts": [
+    {
+     "do": "自选面、调料包、配料做DIY拉面",
+     "get": "自己做的拉面",
+     "cond": "付费体验",
+     "limit": null
+    },
+    {
+     "do": "煮并品尝国内买不到的海外拉面",
+     "get": "海外拉面",
+     "cond": "付费体验",
+     "limit": null
+    }
+   ],
+   "hl": "DIY拉面、现炸拉面、周边与特别菜单",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-06-16 ~ 2026-12-16",
+   "addr": "서울 성동구 성수일로4길 52",
+   "ev": "면, 스프, 토핑 등을 내 맘대로 골라 만드는 DIY 라면 만들기를 체험할 수 있습니다.",
+   "page": "https://popply.co.kr/popup/5243",
+   "nav": "nmap://route/walk?dlat=37.5424984&dlng=127.0543264&dname=%EC%8B%A0%EB%9D%BC%EB%A9%B4%EB%B6%84%EC%8B%9D%20%EB%8D%94%20%ED%8C%A9%ED%86%A0%EB%A6%AC%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6458,
+   "name": "에스페리아 피자리아 팝업",
+   "lat": 37.54307,
+   "lng": 127.0522841,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/a045aad3%2C0bd7%2C4e19%2C82e4%2C4e07c3de6c53"
+   ],
+   "tags": [
+    "food"
+   ],
+   "what": "西西里ESPEERIA披萨店在圣水Seoul Brewery屋顶的4天披萨派对",
+   "line1": "屋顶上现烤西西里窑烤披萨配首尔酿酒厂啤酒，免费入场",
+   "conds": [],
+   "hours": "12:00~21:00",
+   "acts": [],
+   "hl": "屋顶上现烤西西里窑烤披萨配首尔酿酒厂啤酒，免费入场",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-29 ~ 2026-11-01",
+   "addr": "서울 성동구 연무장길 28-12",
+   "ev": "* Free entry! (자유 입장) * 피자와 맥주는 현장에서 구매하실 수 있습니다.",
+   "page": "https://popply.co.kr/popup/6458",
+   "nav": "nmap://route/walk?dlat=37.54307&dlng=127.0522841&dname=%EC%97%90%EC%8A%A4%ED%8E%98%EB%A6%AC%EC%95%84%20%ED%94%BC%EC%9E%90%EB%A6%AC%EC%95%84%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  },
+  {
+   "id": 5434,
+   "name": "올드페리도넛 성수",
+   "lat": 37.541288,
+   "lng": 127.0572471,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/5e7c41a6%2C251d%2C40c6%2Cac94%2C98e8d2c3fb90"
+   ],
+   "tags": [
+    "food"
+   ],
+   "what": "Old Ferry Donut成宗店",
+   "line1": "Old Ferry Donut成宗店",
+   "conds": [],
+   "hours": "11:00~21:00",
+   "acts": [],
+   "hl": null,
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-06-29 ~ 2027-12-31",
+   "addr": "서울 성동구 성수이로16길 5",
+   "ev": null,
+   "page": "https://popply.co.kr/popup/5434",
+   "nav": "nmap://route/walk?dlat=37.541288&dlng=127.0572471&dname=%EC%98%AC%EB%93%9C%ED%8E%98%EB%A6%AC%EB%8F%84%EB%84%9B%20%EC%84%B1%EC%88%98&appname=com.jaepax.popup"
+  },
+  {
+   "id": 6457,
+   "name": "챔피온 팝업",
+   "lat": 37.5403145,
+   "lng": 127.0558768,
+   "imgs": [
+    "https://d8nffddmkwqeq.cloudfront.net/store/d3f296ff%2C79fd%2C4a14%2Cb586%2C4207b3660e7c",
+    "https://d8nffddmkwqeq.cloudfront.net/store/6a9f34f9%2C370d%2C4272%2Cb171%2Cc81f8ee8a731"
+   ],
+   "tags": [
+    "brand"
+   ],
+   "what": "Champion在Musinsa Megastore成水按周更换主题的快闪",
+   "line1": "第一周存档特卖 → 原版卫衣、连帽衫、T恤等最高80%折扣",
+   "conds": [
+    "折扣"
+   ],
+   "hours": "11:00~22:00",
+   "acts": [
+    {
+     "do": "第一周存档特卖",
+     "get": "原版卫衣、连帽衫、T恤等最高80%折扣",
+     "cond": "折扣",
+     "limit": null
+    }
+   ],
+   "hl": "第二周展出FW新款外套和联名系列",
+   "reserve": "未提及",
+   "only": null,
+   "when": "2026-10-26 ~ 2026-11-08",
+   "addr": "서울 성동구 성수이로 62",
+   "ev": "리버스위브 스웻셔츠와 후디, 티셔츠, 스포츠웨어 등 오리지널 아이템을 최대 80% 할인된 가격에 만나볼 수 있다.",
+   "page": "https://popply.co.kr/popup/6457",
+   "nav": "nmap://route/walk?dlat=37.5403145&dlng=127.0558768&dname=%EC%B1%94%ED%94%BC%EC%98%A8%20%ED%8C%9D%EC%97%85&appname=com.jaepax.popup"
+  }
+ ],
+ "tags": [
+  [
+   "gift",
+   "🎁拿东西",
+   9
+  ],
+  [
+   "fun",
+   "🎮免费好玩",
+   9
+  ],
+  [
+   "paid",
+   "🎟付费体验",
+   2
+  ],
+  [
+   "food",
+   "🍰吃拍",
+   4
+  ],
+  [
+   "brand",
+   "👟大牌店",
+   3
+  ]
+ ],
+ "start": {
+  "name": "성수역",
+  "lat": 37.5446,
+  "lng": 127.0559
+ }
+}
